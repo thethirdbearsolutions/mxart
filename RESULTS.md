@@ -139,3 +139,9 @@ voices of the 26 chorales without the sentence (5 altos, 3 tenors), and on 3 of 
 - The lint's thresholds for "monotone" and "leap" are guesses.
 - The scripts under `bench/` and `repair/` are as they were run, with absolute paths under
   `/home/user`. They need those edited to run elsewhere.
+
+## 8. A person listened (added later the same day)
+
+One listener, blind, preferred the chorale as written over its repair in 6 of 9 pairs, and
+never heard a parallel fifth as wrong. The full record, the corrected reading of it, and the
+questions it opened are in `listening/round1/README.md`.

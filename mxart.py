@@ -695,11 +695,15 @@ KB = {
                   "Injected into Bach, the lint catches 87 to 91% of them.",
                   "With the remedy sentence in the brief: 0.6 per 1000 (16 chorales), Bach's rate, at no extra cost.",
                   "Repair, 10 chorales: a model fixes them with this warning (18 s), by reading alone (54 s), or with "
-                  "its own throwaway checker (41 s). Same result; the warning is faster and confirms the edit landed."],
+                  "its own throwaway checker (41 s). Same result; the warning is faster and confirms the edit landed.",
+                  "One listener, blind, nine chorales as written against their repairs: preferred the original in 6, the "
+                  "repair in 2, heard no difference in 1, and never heard a parallel as wrong (listening/round1)."],
         exceptions=["After a note held two beats or more it is usually a phrase break, and allowed. Half of one "
                     "batch's raw hits were these; they are marked, not hidden.",
                     "Fifths by contrary motion (one voice jumps an octave to dodge the rule) are not caught. "
-                    "music21 catches them; two plain-Python repairs made exactly this move."],
+                    "music21 catches them; two plain-Python repairs made exactly this move.",
+                    "A repair that silences this warning can make the music worse: deleting the passing note that "
+                    "caused it lost the listener twice (certain both times). Prefer the sentence at composing time."],
         remedy="Avoid parallel fifths and parallel octaves between voices."),
     "W_PARALLEL_8VE": dict(
         what="Two voices an octave or unison apart both move the same way to another octave or unison.",
@@ -774,6 +778,47 @@ KB = {
                   "Model folk melodies are closer: 20% off the beat against 34% in Essen."],
         exceptions=["Not a fault. A hymn in plain block chords is a legitimate thing to want."],
         remedy="Let the lower voices move between the beats with passing notes and suspensions, as Bach's do."),
+    "N_NO_BREATH": dict(
+        what="Finding with no check yet: phrases run into each other with no pause.",
+        status="no check; first raised by a listener",
+        kinds=("parts", "melody"),
+        evidence=["A listener flagged it in 4 of 9 model chorales ('a forced march') and chose 'phrases and endings' as the "
+                  "first thing to change.",
+                  "All nine are two-bar phrases ending on a two-beat note, no rest, strict time. Bach marks a fermata about "
+                  "every 2.5 bars, usually over a one-beat note: the pause is the performer's.",
+                  "MIDI has no fermata and the renderer adds no time, so the score may be right and the performance wrong."],
+        exceptions=["Unexplained: why those four and not the other five. Untested by ear: the same pieces with a held "
+                    "beat at each phrase end."],
+        remedy=None),
+    "N_REPAIR_FLATTENS": dict(
+        what="Finding with no check yet: a fix that satisfies a warning by deleting motion.",
+        status="hypothesis; 2 of 3 cases",
+        kinds=("parts",),
+        evidence=["Three repairs removed a passing note to silence W_PARALLEL_5TH. The listener preferred the original in "
+                  "two (certain) and the repair in one (certain). See N_ON_THE_BEAT: the corpus comparison had flagged "
+                  "motion before anyone listened.",
+                  "Both repairs that changed a chord or its bass note also lost to the original."],
+        exceptions=["Nine pieces, one listener, read after the fact. The test that would settle it changes only motion, by "
+                    "rule, with the prediction written down first (listening/round1/README.md)."],
+        remedy=None),
+    "N_OPENING": dict(
+        what="Finding with no check yet: an opening that asks before it states.",
+        status="lead only",
+        kinds=("parts", "melody"),
+        evidence=["A listener said one chorale 'skips to the extrapolation without establishing its thesis'. Its first "
+                  "phrase ends on the dominant. The two chorales the listener praised by name are the only two of nine "
+                  "whose first phrase ends on the home chord.",
+                  "In none of the nine does the opening bar ever return."],
+        exceptions=["Three other chorales also end their first phrase on the dominant and drew no complaint."],
+        remedy=None),
+    "N_SCREECH": dict(
+        what="Open question about the renderer: a harsh 'amplification glitch' at a few moments.",
+        status="unexplained",
+        kinds=(),
+        evidence=["Reported at three spots by one listener, who says it depends on a high note, the counterpoint and the "
+                  "surrounding notes together.",
+                  "Ruled out: beating between the synth's partials (no correlation with the audio), and clipping (peak 0.37)."],
+        exceptions=[], remedy=None),
     "N_LATE_VOICE": dict(
         what="Finding with no check yet: one voice starts bars after the others because of a stray timing event.",
         status="no check",

@@ -1,0 +1,20 @@
+      off-beat attacks  chords missing a third  beats where the chord or its bass note changed   listener preferred
+c09         9 -> 9               1 -> 0       bar 7 beat 2: G -> Gm                              repair (faint; not repeated)
+c01         7 -> 7               0 -> 0       none                                               original
+c04         8 -> 7               0 -> 0       none                                               original, certain
+c03         2 -> 2               0 -> 0       bar 1 beat 2: Em -> G                              original, certain
+c05         7 -> 7               0 -> 0       none                                               original
+c07         4 -> 3               0 -> 0       none                                               repair, certain
+a2          3 -> 3               1 -> 0       bar 1 beat 3: Em -> G; bar 3 beat 2: Em -> G/B; bar 7 beat 2: A -> Am original, certain (twice)
+c10         5 -> 4               0 -> 0       none                                               original, certain
+c06         3 -> 3               0 -> 0       none                                               no difference
+
+c09   motion +0, missing thirds -1, harmony changes 1: predicts no difference  heard: repair (faint; not repeated)
+c01   motion +0, missing thirds +0, harmony changes 0: predicts no difference  heard: original
+c04   motion -1, missing thirds +0, harmony changes 0: predicts original       heard: original, certain
+c03   motion +0, missing thirds +0, harmony changes 1: predicts original       heard: original, certain
+c05   motion +0, missing thirds +0, harmony changes 0: predicts no difference  heard: original
+c07   motion -1, missing thirds +0, harmony changes 0: predicts original       heard: repair, certain
+a2    motion +0, missing thirds -1, harmony changes 3: predicts original       heard: original, certain (twice)
+c10   motion -1, missing thirds +0, harmony changes 0: predicts original       heard: original, certain
+c06   motion +0, missing thirds +0, harmony changes 0: predicts no difference  heard: no difference

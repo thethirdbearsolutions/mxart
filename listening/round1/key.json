@@ -1,0 +1,74 @@
+{
+ "t01": {
+  "chorale": "c09",
+  "kind": "pair",
+  "X": "orig",
+  "Y": "fixed"
+ },
+ "t02": {
+  "chorale": "c01",
+  "kind": "pair",
+  "X": "orig",
+  "Y": "fixed"
+ },
+ "t03": {
+  "chorale": "c04",
+  "kind": "pair",
+  "X": "fixed",
+  "Y": "orig"
+ },
+ "t04": {
+  "chorale": "c03",
+  "kind": "pair",
+  "X": "orig",
+  "Y": "fixed"
+ },
+ "t05": {
+  "chorale": "c05",
+  "kind": "pair",
+  "X": "orig",
+  "Y": "fixed"
+ },
+ "t06": {
+  "chorale": "c07",
+  "kind": "pair",
+  "X": "orig",
+  "Y": "fixed"
+ },
+ "t07": {
+  "chorale": "a2",
+  "kind": "pair",
+  "X": "fixed",
+  "Y": "orig"
+ },
+ "t08": {
+  "chorale": "c10",
+  "kind": "pair",
+  "X": "fixed",
+  "Y": "orig"
+ },
+ "t09": {
+  "chorale": "c06",
+  "kind": "pair",
+  "X": "orig",
+  "Y": "fixed"
+ },
+ "t10": {
+  "chorale": "a2",
+  "kind": "repeat",
+  "X": "orig",
+  "Y": "fixed"
+ },
+ "t11": {
+  "chorale": "c09",
+  "kind": "repeat",
+  "X": "fixed",
+  "Y": "orig"
+ },
+ "t12": {
+  "chorale": "c05",
+  "kind": "identical",
+  "X": "orig",
+  "Y": "orig"
+ }
+}

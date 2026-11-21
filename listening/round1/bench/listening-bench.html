@@ -1,0 +1,212 @@
+<title>Chorale Listening Bench</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Space+Grotesk:wght@500;700&display=swap">
+<style>
+/* Layout: one reading column; each pair is a bench card with a bar ruler, two sides (X verdigris, Y plum) and a short answer sheet. */
+:root{
+  --bg:#f2f4f7; --panel:#ffffff; --ink:#1a2230; --dim:#5b6676; --line:#d5dbe4; --track:#e6eaf0;
+  --x:#17705f; --x-soft:#dcefea; --y:#8b3a78; --y-soft:#f3e1ee; --mark:#b8860b; --ok:#2f7d4f; --warn:#a4541a;
+  --display:"Space Grotesk",system-ui,sans-serif; --body:"Inter",system-ui,-apple-system,sans-serif;
+}
+@media (prefers-color-scheme: dark){ :root:not([data-theme="light"]){
+  --bg:#12161d; --panel:#1b212b; --ink:#e8ecf2; --dim:#9aa5b5; --line:#313a48; --track:#262e3a;
+  --x:#5cc4ae; --x-soft:#17352f; --y:#d98bc6; --y-soft:#3a2136; --mark:#e0b24a; --ok:#6fcf97; --warn:#e6a15f; color-scheme:dark } }
+:root[data-theme="dark"]{
+  --bg:#12161d; --panel:#1b212b; --ink:#e8ecf2; --dim:#9aa5b5; --line:#313a48; --track:#262e3a;
+  --x:#5cc4ae; --x-soft:#17352f; --y:#d98bc6; --y-soft:#3a2136; --mark:#e0b24a; --ok:#6fcf97; --warn:#e6a15f; color-scheme:dark }
+*{box-sizing:border-box}
+body{background:var(--bg);color:var(--ink);font:16px/1.55 var(--body);padding-block:28px 80px;
+  padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px))}
+.wrap{max-width:760px;margin:0 auto;display:flex;flex-direction:column;gap:22px}
+h1{font:700 clamp(28px,6vw,40px)/1.05 var(--display);margin:0;text-wrap:balance}
+h2{font:700 20px/1.2 var(--display);margin:0}
+p{margin:0;max-width:66ch}
+.dim{color:var(--dim)}
+.lede{display:flex;flex-direction:column;gap:10px}
+ol.how{margin:0;padding-left:20px;display:flex;flex-direction:column;gap:4px;max-width:66ch}
+.status{font-size:14px;padding:8px 12px;border-radius:8px;background:var(--panel);border:1px solid var(--line)}
+.status.ok{color:var(--ok)} .status.warn{color:var(--warn)}
+.progress{display:flex;flex-wrap:wrap;gap:6px}
+.progress a{font:500 13px var(--body);font-variant-numeric:tabular-nums;text-decoration:none;color:var(--dim);
+  border:1px solid var(--line);border-radius:6px;padding:4px 9px;background:var(--panel)}
+.progress a.done{color:var(--bg);background:var(--ok);border-color:var(--ok)}
+.card{background:var(--panel);border:1px solid var(--line);border-radius:10px;padding:18px;display:flex;flex-direction:column;gap:14px;min-width:0}
+.card header{display:flex;flex-wrap:wrap;align-items:baseline;gap:6px 12px}
+.card header .meta{color:var(--dim);font-size:14px;font-variant-numeric:tabular-nums}
+.card header .saved{margin-left:auto;font-size:13px;color:var(--dim);min-height:20px}
+.sides{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+.side{font:700 17px var(--display);border-radius:8px;border:2px solid var(--line);background:var(--bg);color:var(--ink);
+  padding:12px 10px;cursor:pointer;display:flex;align-items:center;justify-content:center;gap:8px;min-width:0}
+.side[data-s="x"].on{border-color:var(--x);background:var(--x-soft);color:var(--x)}
+.side[data-s="y"].on{border-color:var(--y);background:var(--y-soft);color:var(--y)}
+.side small{font:500 13px var(--body);color:inherit;opacity:.8}
+.ruler{position:relative;height:38px;border-radius:6px;background:var(--track);cursor:pointer;overflow:hidden;touch-action:none}
+.ruler .bar{position:absolute;top:0;bottom:0;border-left:1px solid var(--line);font:500 11px var(--body);color:var(--dim);
+  padding:2px 0 0 4px;font-variant-numeric:tabular-nums;pointer-events:none}
+.ruler .bar.spot{background:color-mix(in srgb,var(--mark) 28%,transparent);color:var(--ink)}
+.ruler .head{position:absolute;top:0;bottom:0;width:2px;background:var(--ink);pointer-events:none}
+.transport{display:flex;flex-wrap:wrap;gap:8px;align-items:center}
+button.t,.chips label{font:500 14px var(--body)}
+button.t{border:1px solid var(--line);background:var(--bg);color:var(--ink);border-radius:999px;padding:7px 14px;cursor:pointer}
+.where{margin-left:auto;font-size:14px;color:var(--dim);font-variant-numeric:tabular-nums}
+fieldset{border:0;padding:0;margin:0;display:flex;flex-direction:column;gap:6px;min-width:0}
+legend{padding:0;font-weight:600;font-size:15px;margin-bottom:6px}
+.chips{display:flex;flex-wrap:wrap;gap:6px}
+.chips input{position:absolute;opacity:0;pointer-events:none}
+.chips label{border:1px solid var(--line);border-radius:999px;padding:6px 13px;cursor:pointer;background:var(--bg);color:var(--ink)}
+.chips input:checked + label{background:var(--ink);color:var(--bg);border-color:var(--ink)}
+.chips input:focus-visible + label, button:focus-visible, .ruler:focus-visible, textarea:focus-visible{outline:2px solid var(--mark);outline-offset:2px}
+textarea{width:100%;min-height:64px;font:15px/1.45 var(--body);color:var(--ink);background:var(--bg);border:1px solid var(--line);border-radius:8px;padding:9px 11px;resize:vertical}
+.q{display:flex;flex-direction:column;gap:14px}
+.export textarea{min-height:120px;font-family:ui-monospace,Menlo,monospace;font-size:12px}
+@media (max-width:420px){ .card{padding:14px} .where{margin-left:0;width:100%} }
+</style>
+
+<div class="wrap">
+  <div class="lede">
+    <h1>Chorale Listening Bench</h1>
+    <p>Twelve pairs of short four-part chorales, 25 to 40 seconds each. In every pair, X and Y are the same piece; the only possible difference is one to four notes in the inner voices or bass. One side is as the model wrote it, the other has its parallel fifths repaired. Which is which is shuffled.</p>
+    <p class="dim">Two of the twelve are repeats of an earlier pair with the sides swapped, and one pair is the same recording on both sides. That tells me how steady the judgments are, so answer each pair as you hear it.</p>
+  </div>
+
+  <ol class="how">
+    <li>Press <b>X</b> or <b>Y</b> to play. Pressing the other side switches at the same moment in the music.</li>
+    <li>The gold bars on the ruler are where the two versions can differ. <b>Go to the spot</b> starts one bar before.</li>
+    <li>Answer the four questions and add a note if you have one. Everything saves as you go.</li>
+  </ol>
+
+  <div id="status" class="status">Connecting to the answer store…</div>
+  <nav class="progress" id="progress" aria-label="Pairs"></nav>
+
+  <section class="card" id="setup">
+    <header><h2>Before you start</h2><span class="saved" data-saved="overall"></span></header>
+    <div class="q" data-doc="overall">
+      <fieldset><legend>What are you listening on?</legend><div class="chips" data-q="setup" data-opts="Headphones|Good speakers|Laptop speakers|Phone speaker"></div></fieldset>
+      <fieldset><legend>How well do you know the rule against parallel fifths?</legend><div class="chips" data-q="training" data-opts="Never heard of it|Know of it|Can hear them|Trained in part-writing"></div></fieldset>
+    </div>
+  </section>
+
+  <div id="trials" style="display:flex;flex-direction:column;gap:22px"></div>
+
+  <section class="card" id="after">
+    <header><h2>After the pairs</h2><span class="saved" data-saved="overall2"></span></header>
+    <div class="q" data-doc="overall">
+      <fieldset><legend>Do these sound like hymns to you?</legend><div class="chips" data-q="hymnlike" data-opts="Yes|Somewhat|No"></div></fieldset>
+      <fieldset><legend>If you could change one thing about them first, what would it be?</legend><div class="chips" data-q="changefirst" data-opts="Rhythm is too plain|Harmony is dull|Inner voices have no line of their own|Phrases and endings|Wrong-sounding notes|The synth sound|Nothing"></div></fieldset>
+      <fieldset><legend>Did the differences between X and Y matter to you as a listener?</legend><div class="chips" data-q="matters" data-opts="Yes, clearly|A little|No|Could not hear any"></div></fieldset>
+      <fieldset><legend>Anything you noticed that no question asked about</legend><textarea id="overall-notes" data-q="notes" placeholder="What stood out, what annoyed you, what you would want checked"></textarea></fieldset>
+    </div>
+  </section>
+
+  <section class="card export" id="export" hidden>
+    <header><h2>Your answers</h2></header>
+    <p class="dim">The answer store is not available in this view, so answers are kept in this browser only. Select the text below, copy it, and paste it into the chat.</p>
+    <textarea id="export-text" readonly></textarea>
+  </section>
+
+  <p class="dim">When you are done, say so in the chat and I will read your answers against the key.</p>
+</div>
+
+<script>
+const TRIALS=[{"id":"t01","bars":8,"beats":4,"barSec":3.1579,"spot":[7]},{"id":"t02","bars":12,"beats":4,"barSec":3.1579,"spot":[9]},{"id":"t03","bars":10,"beats":4,"barSec":3.1579,"spot":[9]},{"id":"t04","bars":12,"beats":3,"barSec":2.3684,"spot":[1,6]},{"id":"t05","bars":8,"beats":4,"barSec":3.1579,"spot":[2]},{"id":"t06","bars":8,"beats":4,"barSec":3.1579,"spot":[5,7]},{"id":"t07","bars":8,"beats":4,"barSec":3.1579,"spot":[1,3,4,7]},{"id":"t08","bars":8,"beats":4,"barSec":3.1579,"spot":[7]},{"id":"t09","bars":10,"beats":4,"barSec":3.1579,"spot":[3]},{"id":"t10","bars":8,"beats":4,"barSec":3.1579,"spot":[1,3,4,7]},{"id":"t11","bars":8,"beats":4,"barSec":3.1579,"spot":[7]},{"id":"t12","bars":8,"beats":4,"barSec":3.1579,"spot":[2]}];
+const QS=[["hear","Can you hear a difference?","Clearly|Faintly|No"],["prefer","Which do you prefer?","X|Y|No preference"],["sure","How sure are you?","Guessing|Fairly sure|Certain"],["wrong","Does anything sound wrong?","In X|In Y|In both|In neither"]];
+const REQUIRED=QS.map(q=>q[0]);
+const state={};            // doc id -> answers
+let db=null, usingLocal=false;
+const $=(s,r=document)=>r.querySelector(s), $$=(s,r=document)=>[...r.querySelectorAll(s)];
+const slug=s=>s.toLowerCase().replace(/[^a-z0-9]+/g,"-").replace(/^-|-$/g,"");
+
+function chips(box,docId){
+  const q=box.dataset.q;
+  box.dataset.opts.split("|").forEach(o=>{
+    const id=`${docId}-${q}-${slug(o)}`;
+    const i=document.createElement("input"); i.type="radio"; i.name=`${docId}-${q}`; i.id=id; i.value=o;
+    const l=document.createElement("label"); l.htmlFor=id; l.textContent=o;
+    i.addEventListener("change",()=>answer(docId,q,o));
+    box.append(i,l);
+  });
+}
+
+function buildTrial(t,n){
+  const sec=document.createElement("section"); sec.className="card"; sec.id=t.id;
+  const dur=t.bars*t.barSec;
+  sec.innerHTML=`<header><h2>Pair ${n}</h2><span class="meta">${t.bars} bars in ${t.beats}/4 · about ${Math.round(dur)} s · listen at bar ${t.spot.join(", ")}</span><span class="saved" data-saved="${t.id}"></span></header>
+  <div class="sides"><button class="side" data-s="x" id="${t.id}-play-x" type="button">X <small>play</small></button><button class="side" data-s="y" id="${t.id}-play-y" type="button">Y <small>play</small></button></div>
+  <div class="ruler" id="${t.id}-ruler" tabindex="0" role="slider" aria-label="Position in the piece" aria-valuemin="1" aria-valuemax="${t.bars}" aria-valuenow="1"><div class="head" style="left:0"></div></div>
+  <div class="transport"><button class="t" type="button" data-act="spot" id="${t.id}-spot">Go to the spot</button><button class="t" type="button" data-act="start" id="${t.id}-start">From the top</button><button class="t" type="button" data-act="stop" id="${t.id}-stop">Stop</button><span class="where" id="${t.id}-where">bar 1 of ${t.bars}</span></div>
+  <div class="q" data-doc="${t.id}">${QS.map(([q,text,opts])=>`<fieldset><legend>${text}</legend><div class="chips" data-q="${q}" data-opts="${opts}"></div></fieldset>`).join("")}
+  <fieldset><legend>Notes</legend><textarea id="${t.id}-notes" data-q="notes" placeholder="What you heard, and where"></textarea></fieldset></div>`;
+  const ruler=$(".ruler",sec);
+  for(let b=0;b<t.bars;b++){const d=document.createElement("div");d.className="bar"+(t.spot.includes(b+1)?" spot":"");d.style.left=(100*b/t.bars)+"%";d.style.width=(100/t.bars)+"%";d.textContent=b+1;ruler.append(d);}
+  const A={x:null,y:null}; let side=null;
+  const get=s=>{ if(!A[s]){const a=new Audio(`audio/${t.id}${s}.mp3`); a.preload="auto"; a.addEventListener("timeupdate",()=>{if(side===s)paint(a.currentTime)}); a.addEventListener("ended",()=>{if(side===s)setSide(null)}); A[s]=a;} return A[s]; };
+  const head=$(".head",sec), where=$(`#${t.id}-where`,sec);
+  let pos=0;
+  function paint(time){ pos=time; head.style.left=Math.min(100,100*time/dur)+"%"; const bar=Math.min(t.bars,Math.floor(time/t.barSec)+1); where.textContent=`bar ${bar} of ${t.bars}`; ruler.setAttribute("aria-valuenow",bar); }
+  function setSide(s){ side=s; $$(".side",sec).forEach(b=>{const on=b.dataset.s===s; b.classList.toggle("on",on); $("small",b).textContent=on?"playing":"play";}); }
+  function play(s,at){ stopOthers(sec); const from=at??pos; ["x","y"].forEach(k=>{if(A[k]&&k!==s)A[k].pause()}); const a=get(s);
+    const go=()=>{ try{a.currentTime=Math.max(0,Math.min(from,dur-0.05))}catch(e){} a.play().catch(()=>{}); setSide(s); };
+    if(a.readyState>=1) go(); else { a.addEventListener("loadedmetadata",go,{once:true}); a.load(); setSide(s); } }
+  function stop(){ ["x","y"].forEach(k=>A[k]&&A[k].pause()); setSide(null); }
+  sec._stop=stop;
+  $$(".side",sec).forEach(b=>b.addEventListener("click",()=>{ if(side===b.dataset.s){stop()} else play(b.dataset.s) }));
+  $(`#${t.id}-spot`,sec).addEventListener("click",()=>play(side||"x",Math.max(0,(t.spot[0]-2)*t.barSec)));
+  $(`#${t.id}-start`,sec).addEventListener("click",()=>play(side||"x",0));
+  $(`#${t.id}-stop`,sec).addEventListener("click",stop);
+  const seek=e=>{const r=ruler.getBoundingClientRect(); const f=Math.max(0,Math.min(1,(e.clientX-r.left)/r.width)); const bar=Math.floor(f*t.bars); const at=bar*t.barSec; if(side) play(side,at); else paint(at); };
+  ruler.addEventListener("pointerdown",seek);
+  ruler.addEventListener("keydown",e=>{ if(e.key!=="ArrowLeft"&&e.key!=="ArrowRight")return; e.preventDefault(); const bar=Math.max(0,Math.min(t.bars-1,Math.floor(pos/t.barSec)+(e.key==="ArrowRight"?1:-1))); if(side) play(side,bar*t.barSec); else paint(bar*t.barSec); });
+  $$(".chips",sec).forEach(c=>chips(c,t.id));
+  $("textarea",sec).addEventListener("input",e=>answer(t.id,"notes",e.target.value,true));
+  return sec;
+}
+function stopOthers(me){ $$("#trials .card").forEach(c=>{ if(c!==me&&c._stop)c._stop() }); }
+
+// ---- answers
+const timers={}, writing={}, dirty={};
+function answer(docId,q,v,slow){ (state[docId] ||= {})[q]=v; progress(); saved(docId,"Saving…"); clearTimeout(timers[docId]); timers[docId]=setTimeout(()=>flush(docId),slow?900:150); }
+async function flush(docId){
+  const data={...state[docId],updatedAt:new Date().toISOString()};
+  try{ localStorage.setItem("clb-"+docId,JSON.stringify(data)) }catch(e){}
+  if(!db){ saved(docId,"Kept in this browser"); exportText(); return; }
+  if(writing[docId]){ dirty[docId]=true; return; }
+  writing[docId]=true;
+  try{ await db.doc("answers/"+docId).set(data); saved(docId,"Saved"); }
+  catch(e){ saved(docId,"Not saved: "+(e&&e.code||"error")); usingLocal=true; $("#export").hidden=false; exportText(); }
+  writing[docId]=false; if(dirty[docId]){ dirty[docId]=false; flush(docId); }
+}
+function saved(docId,text){ $$(`[data-saved="${docId}"]`).forEach(e=>e.textContent=text); if(docId==="overall")$$('[data-saved="overall2"]').forEach(e=>e.textContent=text); }
+function exportText(){ $("#export-text").value=JSON.stringify(state,null,1); }
+function fill(docId,data){
+  state[docId]={...data}; delete state[docId].updatedAt;
+  for(const [q,v] of Object.entries(state[docId])){
+    if(q==="notes"){ const ta=$(docId==="overall"?"#overall-notes":`#${docId}-notes`); if(ta&&document.activeElement!==ta) ta.value=v; continue; }
+    const i=document.getElementById(`${docId}-${q}-${slug(String(v))}`); if(i) i.checked=true;
+  }
+}
+function progress(){ $$("#progress a").forEach(a=>{ const s=state[a.dataset.id]||{}; a.classList.toggle("done",REQUIRED.every(q=>s[q])); }); }
+
+// ---- build
+const host=$("#trials"), nav=$("#progress");
+TRIALS.forEach((t,i)=>{ host.append(buildTrial(t,i+1)); const a=document.createElement("a"); a.href="#"+t.id; a.dataset.id=t.id; a.textContent=i+1; a.addEventListener("click",e=>{e.preventDefault(); document.getElementById(t.id).scrollIntoView({behavior:"smooth",block:"start"})}); nav.append(a); });
+$$("#setup .chips, #after .chips").forEach(c=>chips(c,"overall"));
+$("#overall-notes").addEventListener("input",e=>answer("overall","notes",e.target.value,true));
+// local copies first, so the page is useful before (or without) the store
+["overall",...TRIALS.map(t=>t.id)].forEach(id=>{ try{ const s=localStorage.getItem("clb-"+id); if(s) fill(id,JSON.parse(s)); }catch(e){} });
+progress();
+
+(async()=>{
+  const st=$("#status");
+  const local=()=>{ st.textContent="Answers are kept in this browser only. Copy them from the box at the bottom when you finish."; st.className="status warn"; $("#export").hidden=false; exportText(); };
+  let got=null;
+  try{ got=await (window.claude&&window.claude.use?window.claude.use("db"):null); }catch(e){}
+  if(!got){ local(); return; }
+  db=got;
+  const timer=setTimeout(()=>{ st.textContent="The answer store is slow to respond. You can start; answers are also kept in this browser."; st.className="status warn"; },10000);
+  try{
+    const snap=await db.collection("answers").get(); clearTimeout(timer);
+    snap.docs.forEach(d=>{ const data=d.data(); if(data) fill(d.id,data); });
+    progress(); st.textContent="Answers save as you go, and Claude can read them."; st.className="status ok";
+  }catch(e){ clearTimeout(timer); db=null; local(); }
+})();
+</script>
