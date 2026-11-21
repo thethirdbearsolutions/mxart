@@ -1,0 +1,52 @@
+# An eight-bar loop: C, Am, F, G, twice, with the last bar landing home.
+mxart 1
+tempo 112
+time 4/4
+grid 8
+key C major
+
+k 36
+s 38
+h 42
+
+@track lead program=80 vel=100
+| E5 -  G5 E5 C5 -  D5 E5 |
+| C5 -  A4 -  E5 -  D5 C5 |
+| A4 -  C5 A4 F4 -  G4 A4 |
+| B4 -  D5 -  G5 -  -  .  |
+| E5 -  G5 E5 C6! - B5 G5 |
+| A5 -  E5 -  C5 -  D5 E5 |
+| F5 -  A5 F5 D5 -  C5 A4 |
+| B4 -  D5 -  C5 -  -  -  |
+
+@track pad program=89 vel=60
+| C4+E4+G4 - - - - - - - |
+| A3+C4+E4 - - - - - - - |
+| F3+A3+C4 - - - - - - - |
+| G3+B3+D4 - - - - - - - |
+| C4+E4+G4 - - - - - - - |
+| A3+C4+E4 - - - - - - - |
+| F3+A3+C4 - - - - - - - |
+| G3+B3+D4 - - - C4+E4+G4 - - - |
+
+@track bass program=33 vel=100
+| C2 - - C2 G2 - C2 - |
+| A2 - - A2 E2 - A2 - |
+| F2 - - F2 C3 - F2 - |
+| G2 - - G2 D3 - G2 - |
+| C2 - - C2 G2 - C2 - |
+| A2 - - A2 E2 - A2 - |
+| F2 - - F2 C3 - F2 - |
+| G2 - G2 - C2 - - - |
+
+@drums kick
+| k...k... | k...k... | k...k... | k...k..k |
+| k...k... | k...k... | k...k... | k...k... |
+
+@drums snare
+| ..s...s. | ..s...s. | ..s...s. | ..s...ss |
+| ..s...s. | ..s...s. | ..s...s. | ..s.s... |
+
+@drums hat vel=70
+| hhhhhhhh | hhhhhhhh | hhhhhhhh | hhhhhhhh |
+| hhhhhhhh | hhhhhhhh | hhhhhhhh | hhhh.... |

@@ -1,0 +1,17 @@
+# Every format error at once, each with a code and a place.
+mxart 1
+tempo 112
+grid 8
+key C major
+k 36
+
+@track lead program=80
+| E5 - G5 E5 C5 - D5 |
+| H4 - A4 - E5 - D5 C5 |
+| .  - C5 - .  .  .  .  |
+
+@track bass program=200
+| C2 - - C2 G2 - C2 - |
+
+@drums kick
+| k...s... | k...k... | k...k... |

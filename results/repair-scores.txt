@@ -1,0 +1,15 @@
+      before | A: left m21 changed sop  +clash +cross | B: left m21 changed sop  +clash +cross | C: left m21 changed sop  +clash +cross
+a2     4/5   |       0   1       8   0     +0     +0 |       0   1       8   0     +0     +0 |       0   2       8   0     +0     +0 | 
+c01    1/1   |       0   0       2   0     +0     +0 |       0   0       2   0     +0     +0 |       0   0       2   0     +0     +0 | 
+c03    2/2   |       0   0       4   0     +0     +0 |       0   0       4   0     +0     +0 |       0   0       4   0     +0     +0 | 
+c04    1/1   |       0   0       3   0     -1     +0 |       0   0       3   0     -1     +0 |       0   0       2   0     -1     +0 | 
+c05    1/1   |       0   0       2   0     +0     +0 |       0   0       2   0     +1     +0 |       0   0       2   0     +0     +0 | 
+c06    2/2   |       0   0       2   0     +0     +0 |       2   2       0   0     +0     +0 |       0   0       2   0     +0     +0 | 
+c07    2/2   |       0   0       5   0     +0     +0 |       0   0       5   0     +0     +0 |       0   0       4   0     +0     +0 | 
+c09    1/1   |       0   0       2   0     +0     +0 |       0   0       2   0     +0     +0 |       0   0       2   0     +0     +0 | 
+c10    1/1   |       0   0       3   0     +0     +0 |       0   0       3   0     +0     +0 |       0   0       2   0     +0     +0 | 
+c13    2/2   |       0   0       4   0     +0     +0 |       0   0       4   0     +0     +0 |       0   1       6   0     +0     +0 | 
+
+A mxart with lint      scored 10, failed 0: mid-phrase parallels 17 -> 0 (music21: 1), fully clean 9 of 10, note events changed 35 (3.5 per piece), soprano notes changed 0, clashes -1, off-key lines +0, crossings +0, leaps +0, held-note parallels +0, length changed 0
+B same text, no lint   scored 10, failed 0: mid-phrase parallels 17 -> 2 (music21: 3), fully clean 8 of 10, note events changed 33 (3.3 per piece), soprano notes changed 0, clashes +0, off-key lines +0, crossings +0, leaps +0, held-note parallels +0, length changed 0
+C plain Python         scored 10, failed 0: mid-phrase parallels 17 -> 0 (music21: 3), fully clean 8 of 10, note events changed 34 (3.4 per piece), soprano notes changed 0, clashes -1, off-key lines +0, crossings +0, leaps +0, held-note parallels +0, length changed 0

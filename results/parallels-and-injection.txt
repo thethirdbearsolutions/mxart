@@ -1,0 +1,13 @@
+                         pieces | per 1000 paired moves, mid-phrase / after a held note:         5ths       octaves | crossings per 100 bars | pieces with a mid-phrase 5th
+Bach chorales                36 |                                                         0.7 /  0.1    0.1 /  0.0 |                    0.0 | 5 of 36
+Corelli trio sonatas        146 |                                                         1.4 /  0.1    0.5 /  0.1 |                    0.0 | 12 of 146
+MODEL chorales               26 |                                                         7.3 /  2.8    2.4 /  1.4 |                    0.0 | 14 of 26
+
+injection into Bach, new default lint (caught = a warning the clean chorale didn't have)
+  one note a semitone off                 15 of 180 (  8%)  by {'W_PARALLEL_5TH': 12, 'W_LEAP': 2, 'W_PARALLEL_8VE': 1}
+  one note an octave off                 114 of 180 ( 63%)  by {'W_LEAP': 113, 'W_PARALLEL_5TH': 1}
+  one voice a semitone sharp for a bar    14 of 164 (  9%)  by {'W_PARALLEL_5TH': 14, 'W_LEAP': 2}
+  two bars stuck on one pitch             13 of 175 (  7%)  by {'W_PARALLEL_8VE': 6, 'W_PARALLEL_5TH': 3, 'W_MONOTONE': 2}
+  a bar silent in every voice            180 of 180 (100%)  by {'W_EMPTY_BAR': 180, 'W_LEAP': 7}
+  one voice a sixteenth late for a bar     1 of 168 (  1%)  by {'W_LEAP': 1}
+  one voice shadows another a 5th away   157 of 180 ( 87%)  by {'W_PARALLEL_5TH': 151, 'W_LEAP': 26, 'W_PARALLEL_8VE': 8}

@@ -1,0 +1,79 @@
+{
+ "pair01": {
+  "chorale": "c09",
+  "X": "orig",
+  "Y": "fixed",
+  "bars_that_differ": [
+   7
+  ]
+ },
+ "pair02": {
+  "chorale": "c04",
+  "X": "orig",
+  "Y": "fixed",
+  "bars_that_differ": [
+   9
+  ]
+ },
+ "pair03": {
+  "chorale": "c03",
+  "X": "fixed",
+  "Y": "orig",
+  "bars_that_differ": [
+   1,
+   6
+  ]
+ },
+ "pair04": {
+  "chorale": "c10",
+  "X": "fixed",
+  "Y": "orig",
+  "bars_that_differ": [
+   7
+  ]
+ },
+ "pair05": {
+  "chorale": "a2",
+  "X": "fixed",
+  "Y": "orig",
+  "bars_that_differ": [
+   1,
+   3,
+   4,
+   7
+  ]
+ },
+ "pair06": {
+  "chorale": "c07",
+  "X": "fixed",
+  "Y": "orig",
+  "bars_that_differ": [
+   5,
+   7
+  ]
+ },
+ "pair07": {
+  "chorale": "c05",
+  "X": "orig",
+  "Y": "fixed",
+  "bars_that_differ": [
+   2
+  ]
+ },
+ "pair08": {
+  "chorale": "c06",
+  "X": "fixed",
+  "Y": "orig",
+  "bars_that_differ": [
+   3
+  ]
+ },
+ "pair09": {
+  "chorale": "c01",
+  "X": "orig",
+  "Y": "fixed",
+  "bars_that_differ": [
+   9
+  ]
+ }
+}

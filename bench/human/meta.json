@@ -1,0 +1,3005 @@
+{
+ "chorale/bwv276.mid": {
+  "key": "D",
+  "mode": "minor",
+  "num": 4,
+  "den": 4,
+  "pickup": 3.0,
+  "notes": 559
+ },
+ "chorale/bwv287.mid": {
+  "key": "F",
+  "mode": "major",
+  "num": 4,
+  "den": 4,
+  "pickup": 3.0,
+  "notes": 202
+ },
+ "chorale/bwv92.mid": {
+  "key": "B",
+  "mode": "minor",
+  "num": 4,
+  "den": 4,
+  "pickup": 3.0,
+  "notes": 320
+ },
+ "chorale/bwv390.mid": {
+  "key": "C",
+  "mode": "major",
+  "num": 3,
+  "den": 4,
+  "pickup": 2.0,
+  "notes": 351
+ },
+ "chorale/bwv78.mid": {
+  "key": "G",
+  "mode": "minor",
+  "num": 4,
+  "den": 4,
+  "pickup": 0.0,
+  "notes": 282
+ },
+ "chorale/bwv244.mid": {
+  "key": "B",
+  "mode": "minor",
+  "num": 4,
+  "den": 4,
+  "pickup": 3.0,
+  "notes": 194
+ },
+ "chorale/bwv103.mid": {
+  "key": "B",
+  "mode": "minor",
+  "num": 4,
+  "den": 4,
+  "pickup": 3.0,
+  "notes": 247
+ },
+ "chorale/bwv434.mid": {
+  "key": "A",
+  "mode": "minor",
+  "num": 4,
+  "den": 4,
+  "pickup": 3.0,
+  "notes": 172
+ },
+ "chorale/bwv298.mid": {
+  "key": "C",
+  "mode": "major",
+  "num": 4,
+  "den": 4,
+  "pickup": 3.0,
+  "notes": 184
+ },
+ "chorale/bwv226.mid": {
+  "key": "Bb",
+  "mode": "major",
+  "num": 4,
+  "den": 4,
+  "pickup": 3.0,
+  "notes": 426
+ },
+ "chorale/bwv145-a.mid": {
+  "key": "D",
+  "mode": "major",
+  "num": 4,
+  "den": 4,
+  "pickup": 0.0,
+  "notes": 210
+ },
+ "chorale/bwv168.mid": {
+  "key": "B",
+  "mode": "minor",
+  "num": 4,
+  "den": 4,
+  "pickup": 3.0,
+  "notes": 205
+ },
+ "chorale/bwv227.mid": {
+  "key": "E",
+  "mode": "minor",
+  "num": 4,
+  "den": 4,
+  "pickup": 0.0,
+  "notes": 284
+ },
+ "chorale/bwv72.mid": {
+  "key": "A",
+  "mode": "minor",
+  "num": 4,
+  "den": 4,
+  "pickup": 3.0,
+  "notes": 324
+ },
+ "chorale/bwv110.mid": {
+  "key": "B",
+  "mode": "minor",
+  "num": 4,
+  "den": 4,
+  "pickup": 3.0,
+  "notes": 206
+ },
+ "chorale/bwv428.mid": {
+  "key": "G",
+  "mode": "major",
+  "num": 4,
+  "den": 4,
+  "pickup": 3.0,
+  "notes": 275
+ },
+ "chorale/bwv340.mid": {
+  "key": "A",
+  "mode": "minor",
+  "num": 4,
+  "den": 4,
+  "pickup": 3.0,
+  "notes": 405
+ },
+ "chorale/bwv248.mid": {
+  "key": "G",
+  "mode": "major",
+  "num": 4,
+  "den": 4,
+  "pickup": 0.0,
+  "notes": 208
+ },
+ "chorale/bwv419.mid": {
+  "key": "A",
+  "mode": "minor",
+  "num": 4,
+  "den": 4,
+  "pickup": 3.0,
+  "notes": 206
+ },
+ "chorale/bwv395.mid": {
+  "key": "A",
+  "mode": "major",
+  "num": 4,
+  "den": 4,
+  "pickup": 3.0,
+  "notes": 209
+ },
+ "chorale/bwv48.mid": {
+  "key": "Bb",
+  "mode": "major",
+  "num": 4,
+  "den": 4,
+  "pickup": 3.0,
+  "notes": 156
+ },
+ "chorale/bwv318.mid": {
+  "key": "G",
+  "mode": "major",
+  "num": 4,
+  "den": 4,
+  "pickup": 0.0,
+  "notes": 199
+ },
+ "chorale/bwv115.mid": {
+  "key": "G",
+  "mode": "major",
+  "num": 4,
+  "den": 4,
+  "pickup": 0.0,
+  "notes": 172
+ },
+ "chorale/bwv77.mid": {
+  "key": "G",
+  "mode": "minor",
+  "num": 4,
+  "den": 4,
+  "pickup": 3.0,
+  "notes": 183
+ },
+ "chorale/bwv291.mid": {
+  "key": "F",
+  "mode": "major",
+  "num": 4,
+  "den": 4,
+  "pickup": 3.0,
+  "notes": 184
+ },
+ "chorale/bwv245.mid": {
+  "key": "A",
+  "mode": "minor",
+  "num": 4,
+  "den": 4,
+  "pickup": 3.0,
+  "notes": 218
+ },
+ "chorale/bwv409.mid": {
+  "key": "A",
+  "mode": "major",
+  "num": 4,
+  "den": 4,
+  "pickup": 0.0,
+  "notes": 170
+ },
+ "chorale/bwv113.mid": {
+  "key": "B",
+  "mode": "minor",
+  "num": 4,
+  "den": 4,
+  "pickup": 3.0,
+  "notes": 209
+ },
+ "chorale/bwv372.mid": {
+  "key": "G",
+  "mode": "minor",
+  "num": 4,
+  "den": 4,
+  "pickup": 0.0,
+  "notes": 267
+ },
+ "chorale/bwv148.mid": {
+  "key": "F#",
+  "mode": "minor",
+  "num": 4,
+  "den": 4,
+  "pickup": 3.0,
+  "notes": 201
+ },
+ "chorale/bwv80.mid": {
+  "key": "D",
+  "mode": "major",
+  "num": 4,
+  "den": 4,
+  "pickup": 3.0,
+  "notes": 248
+ },
+ "chorale/bwv280.mid": {
+  "key": "A",
+  "mode": "minor",
+  "num": 4,
+  "den": 4,
+  "pickup": 3.0,
+  "notes": 278
+ },
+ "chorale/bwv397.mid": {
+  "key": "F",
+  "mode": "major",
+  "num": 4,
+  "den": 4,
+  "pickup": 0.0,
+  "notes": 208
+ },
+ "chorale/bwv62.mid": {
+  "key": "G",
+  "mode": "minor",
+  "num": 4,
+  "den": 4,
+  "pickup": 3.0,
+  "notes": 180
+ },
+ "chorale/bwv64.mid": {
+  "key": "G",
+  "mode": "major",
+  "num": 4,
+  "den": 4,
+  "pickup": 3.0,
+  "notes": 177
+ },
+ "chorale/bwv87.mid": {
+  "key": "D",
+  "mode": "minor",
+  "num": 4,
+  "den": 4,
+  "pickup": 0.0,
+  "notes": 220
+ },
+ "folk/erk5_0.mid": {
+  "key": "G",
+  "mode": "major",
+  "num": 2,
+  "den": 4,
+  "pickup": 1.5,
+  "notes": 39
+ },
+ "folk/erk5_2.mid": {
+  "key": "C",
+  "mode": "major",
+  "num": 3,
+  "den": 4,
+  "pickup": 0.0,
+  "notes": 33
+ },
+ "folk/erk5_3.mid": {
+  "key": "D",
+  "mode": "minor",
+  "num": 4,
+  "den": 4,
+  "pickup": 3.0,
+  "notes": 38
+ },
+ "folk/erk5_4.mid": {
+  "key": "G",
+  "mode": "major",
+  "num": 3,
+  "den": 4,
+  "pickup": 2.0,
+  "notes": 68
+ },
+ "folk/erk5_6.mid": {
+  "key": "E",
+  "mode": "minor",
+  "num": 4,
+  "den": 4,
+  "pickup": 3.0,
+  "notes": 32
+ },
+ "folk/erk30_0.mid": {
+  "key": "G",
+  "mode": "major",
+  "num": 2,
+  "den": 4,
+  "pickup": 1.5,
+  "notes": 56
+ },
+ "folk/erk30_2.mid": {
+  "key": "G",
+  "mode": "major",
+  "num": 3,
+  "den": 4,
+  "pickup": 2.0,
+  "notes": 39
+ },
+ "folk/erk30_3.mid": {
+  "key": "F",
+  "mode": "major",
+  "num": 3,
+  "den": 4,
+  "pickup": 2.0,
+  "notes": 29
+ },
+ "folk/erk30_5.mid": {
+  "key": "F",
+  "mode": "major",
+  "num": 3,
+  "den": 4,
+  "pickup": 2.0,
+  "notes": 28
+ },
+ "folk/erk30_6.mid": {
+  "key": "D",
+  "mode": "major",
+  "num": 4,
+  "den": 4,
+  "pickup": 2.5,
+  "notes": 71
+ },
+ "folk/fink0_2.mid": {
+  "key": "G",
+  "mode": "major",
+  "num": 4,
+  "den": 4,
+  "pickup": 0.0,
+  "notes": 86
+ },
+ "folk/fink0_3.mid": {
+  "key": "Bb",
+  "mode": "major",
+  "num": 2,
+  "den": 4,
+  "pickup": 1.5,
+  "notes": 47
+ },
+ "folk/fink0_5.mid": {
+  "key": "Eb",
+  "mode": "major",
+  "num": 4,
+  "den": 4,
+  "pickup": 0.0,
+  "notes": 47
+ },
+ "folk/fink0_6.mid": {
+  "key": "Bb",
+  "mode": "major",
+  "num": 4,
+  "den": 4,
+  "pickup": 3.0,
+  "notes": 64
+ },
+ "folk/fink0_7.mid": {
+  "key": "G",
+  "mode": "major",
+  "num": 2,
+  "den": 4,
+  "pickup": 1.5,
+  "notes": 97
+ },
+ "folk/han2_4.mid": {
+  "key": "Bb",
+  "mode": "major",
+  "num": 2,
+  "den": 4,
+  "pickup": 0.0,
+  "notes": 46
+ },
+ "folk/han2_5.mid": {
+  "key": "Bb",
+  "mode": "major",
+  "num": 2,
+  "den": 4,
+  "pickup": 0.0,
+  "notes": 36
+ },
+ "folk/teste_0.mid": {
+  "key": "F",
+  "mode": "major",
+  "num": 4,
+  "den": 4,
+  "pickup": 3.0,
+  "notes": 49
+ },
+ "folk/teste_2.mid": {
+  "key": "D",
+  "mode": "major",
+  "num": 2,
+  "den": 4,
+  "pickup": 0.0,
+  "notes": 174
+ },
+ "folk/teste_3.mid": {
+  "key": "A",
+  "mode": "major",
+  "num": 2,
+  "den": 4,
+  "pickup": 0.0,
+  "notes": 27
+ },
+ "folk/teste_4.mid": {
+  "key": "A",
+  "mode": "minor",
+  "num": 3,
+  "den": 4,
+  "pickup": 0.0,
+  "notes": 52
+ },
+ "folk/teste_5.mid": {
+  "key": "G",
+  "mode": "major",
+  "num": 2,
+  "den": 4,
+  "pickup": 0.0,
+  "notes": 29
+ },
+ "folk/teste_6.mid": {
+  "key": "F",
+  "mode": "major",
+  "num": 4,
+  "den": 4,
+  "pickup": 2.0,
+  "notes": 67
+ },
+ "folk/teste_7.mid": {
+  "key": "F",
+  "mode": "major",
+  "num": 3,
+  "den": 4,
+  "pickup": 1.5,
+  "notes": 66
+ },
+ "folk/ballad40_3.mid": {
+  "key": "G",
+  "mode": "major",
+  "num": 3,
+  "den": 4,
+  "pickup": 2.5,
+  "notes": 32
+ },
+ "folk/ballad40_4.mid": {
+  "key": "G",
+  "mode": "major",
+  "num": 4,
+  "den": 4,
+  "pickup": 3.0,
+  "notes": 28
+ },
+ "folk/ballad40_5.mid": {
+  "key": "G",
+  "mode": "major",
+  "num": 4,
+  "den": 4,
+  "pickup": 3.0,
+  "notes": 35
+ },
+ "folk/ballad40_6.mid": {
+  "key": "F",
+  "mode": "major",
+  "num": 4,
+  "den": 4,
+  "pickup": 3.0,
+  "notes": 37
+ },
+ "folk/ballad40_7.mid": {
+  "key": "G",
+  "mode": "major",
+  "num": 2,
+  "den": 4,
+  "pickup": 1.5,
+  "notes": 34
+ },
+ "folk/lux_1.mid": {
+  "key": "F",
+  "mode": "major",
+  "num": 3,
+  "den": 4,
+  "pickup": 2.0,
+  "notes": 80
+ },
+ "folk/lux_2.mid": {
+  "key": "E",
+  "mode": "minor",
+  "num": 2,
+  "den": 4,
+  "pickup": 1.5,
+  "notes": 47
+ },
+ "folk/lux_5.mid": {
+  "key": "F",
+  "mode": "major",
+  "num": 3,
+  "den": 4,
+  "pickup": 2.0,
+  "notes": 48
+ },
+ "folk/lux_6.mid": {
+  "key": "G",
+  "mode": "major",
+  "num": 2,
+  "den": 4,
+  "pickup": 1.5,
+  "notes": 47
+ },
+ "folk/lux_7.mid": {
+  "key": "A",
+  "mode": "major",
+  "num": 4,
+  "den": 4,
+  "pickup": 3.0,
+  "notes": 51
+ },
+ "buxtehude/BuxWv155_0.mid": {
+  "key": "D",
+  "mode": "minor",
+  "num": 4,
+  "den": 4,
+  "notes": 1060
+ },
+ "buxtehude/BuxWv155_1.mid": {
+  "key": "D",
+  "mode": "minor",
+  "num": 3,
+  "den": 4,
+  "notes": 1166
+ },
+ "buxtehude/BuxWv155_2.mid": {
+  "key": "D",
+  "mode": "major",
+  "num": 4,
+  "den": 4,
+  "notes": 76
+ },
+ "buxtehude/BuxWv185_0.mid": {
+  "key": "G",
+  "mode": "minor",
+  "num": 4,
+  "den": 4,
+  "notes": 336
+ },
+ "buxtehude/buxtehude_Wv208_nun_bitten_wir_0.mid": {
+  "key": "G",
+  "mode": "major",
+  "num": 4,
+  "den": 4,
+  "notes": 528
+ },
+ "buxtehude/buxtehude_Wv209_nun_bitten_wir_0.mid": {
+  "key": "G",
+  "mode": "major",
+  "num": 4,
+  "den": 4,
+  "notes": 485
+ },
+ "haydn_mutopia/Austria_0.mid": {
+  "key": "A",
+  "mode": "major",
+  "num": 4,
+  "den": 2,
+  "notes": 346
+ },
+ "haydn_mutopia/Deutschlandlied_0.mid": {
+  "key": "G",
+  "mode": "major",
+  "num": 4,
+  "den": 4,
+  "notes": 262
+ },
+ "haydn_mutopia/Greis_0.mid": {
+  "key": "A",
+  "mode": "major",
+  "num": 4,
+  "den": 4,
+  "notes": 652
+ },
+ "haydn_mutopia/hob_xvi_27_i_allegro_con_brio_0.mid": {
+  "key": "G",
+  "mode": "major",
+  "num": 2,
+  "den": 4,
+  "notes": 1475
+ },
+ "haydn_mutopia/hob_xvi_27_ii_menuet_trio_0.mid": {
+  "key": "G",
+  "mode": "major",
+  "num": 3,
+  "den": 4,
+  "notes": 648
+ },
+ "haydn_mutopia/hob_xvi_27_iii_presto_0.mid": {
+  "key": "G",
+  "mode": "major",
+  "num": 2,
+  "den": 4,
+  "notes": 1211
+ },
+ "haydn_mutopia/hob_xvi_28_i_allegro_moderato_0.mid": {
+  "key": "Eb",
+  "mode": "major",
+  "num": 3,
+  "den": 4,
+  "notes": 1690
+ },
+ "haydn_mutopia/hob_xvi_28_ii_menuetto_0.mid": {
+  "key": "Eb",
+  "mode": "major",
+  "num": 3,
+  "den": 4,
+  "notes": 427
+ },
+ "haydn_mutopia/hob_xvi_28_iii_presto_0.mid": {
+  "key": "Eb",
+  "mode": "major",
+  "num": 2,
+  "den": 4,
+  "notes": 1118
+ },
+ "haydn_mutopia/op1_4_0.mid": {
+  "key": "G",
+  "mode": "major",
+  "num": 3,
+  "den": 4,
+  "notes": 681
+ },
+ "haydn_mutopia/part_II_aria_raphael_0.mid": {
+  "key": "D",
+  "mode": "major",
+  "num": 3,
+  "den": 4,
+  "notes": 1977
+ },
+ "haydn_mutopia/tantum_ergo_0.mid": {
+  "key": "C",
+  "mode": "major",
+  "num": 3,
+  "den": 4,
+  "notes": 221
+ },
+ "saint_georges/sq8437358_0.mid": {
+  "key": "G",
+  "mode": "major",
+  "num": 3,
+  "den": 4,
+  "notes": 866
+ },
+ "saint_georges/sq8437280_0.mid": {
+  "key": "C",
+  "mode": "minor",
+  "num": 2,
+  "den": 2,
+  "notes": 1783
+ },
+ "saint_georges/sq8437280_1.mid": {
+  "key": "C",
+  "mode": "major",
+  "num": 2,
+  "den": 4,
+  "notes": 600
+ },
+ "saint_georges/sq10490761_0.mid": {
+  "key": "A",
+  "mode": "major",
+  "num": 4,
+  "den": 4,
+  "notes": 2684
+ },
+ "saint_georges/sq10490761_1.mid": {
+  "key": "D",
+  "mode": "major",
+  "num": 6,
+  "den": 8,
+  "notes": 1694
+ },
+ "saint_georges/sq8438840_0.mid": {
+  "key": "Bb",
+  "mode": "major",
+  "num": 2,
+  "den": 2,
+  "notes": 1920
+ },
+ "saint_georges/sq8438840_1.mid": {
+  "key": "Eb",
+  "mode": "major",
+  "num": 3,
+  "den": 4,
+  "notes": 678
+ },
+ "saint_georges/sq8438915_0.mid": {
+  "key": "Bb",
+  "mode": "major",
+  "num": 2,
+  "den": 2,
+  "notes": 1447
+ },
+ "saint_georges/sq8438915_1.mid": {
+  "key": "D",
+  "mode": "major",
+  "num": 2,
+  "den": 4,
+  "notes": 383
+ },
+ "saint_georges/sq8438999_0.mid": {
+  "key": "Bb",
+  "mode": "major",
+  "num": 4,
+  "den": 4,
+  "notes": 1732
+ },
+ "saint_georges/sq8438999_1.mid": {
+  "key": "G",
+  "mode": "major",
+  "num": 2,
+  "den": 4,
+  "notes": 1114
+ },
+ "haydn_quartets/sq19815031_0.mid": {
+  "key": "D",
+  "mode": "minor",
+  "num": 4,
+  "den": 4,
+  "notes": 1693
+ },
+ "haydn_quartets/sq19815031_1.mid": {
+  "key": "Bb",
+  "mode": "major",
+  "num": 3,
+  "den": 4,
+  "notes": 1808
+ },
+ "haydn_quartets/sq19815031_2.mid": {
+  "key": "Ab",
+  "mode": "minor",
+  "num": 4,
+  "den": 4,
+  "notes": 3845
+ },
+ "haydn_quartets/sq19815031_3.mid": {
+  "key": "F",
+  "mode": "minor",
+  "num": 3,
+  "den": 4,
+  "notes": 1295
+ },
+ "haydn_quartets/sq19815031_4.mid": {
+  "key": "D",
+  "mode": "major",
+  "num": 4,
+  "den": 4,
+  "notes": 4640
+ },
+ "haydn_quartets/sq19815031_5.mid": {
+  "key": "C",
+  "mode": "minor",
+  "num": 3,
+  "den": 4,
+  "notes": 4074
+ },
+ "haydn_quartets/sq9146376_0.mid": {
+  "key": "A",
+  "mode": "major",
+  "num": 6,
+  "den": 8,
+  "notes": 1977
+ },
+ "haydn_quartets/sq9146376_1.mid": {
+  "key": "E",
+  "mode": "major",
+  "num": 3,
+  "den": 4,
+  "notes": 578
+ },
+ "haydn_quartets/sq9146376_2.mid": {
+  "key": "E",
+  "mode": "major",
+  "num": 2,
+  "den": 2,
+  "notes": 1517
+ },
+ "haydn_quartets/sq9146376_3.mid": {
+  "key": "A",
+  "mode": "major",
+  "num": 2,
+  "den": 4,
+  "notes": 647
+ },
+ "haydn_quartets/sq8796660_0.mid": {
+  "key": "A",
+  "mode": "major",
+  "num": 6,
+  "den": 8,
+  "notes": 2576
+ },
+ "haydn_quartets/sq8796660_1.mid": {
+  "key": "E",
+  "mode": "major",
+  "num": 2,
+  "den": 2,
+  "notes": 1647
+ },
+ "haydn_quartets/sq8796660_2.mid": {
+  "key": "A",
+  "mode": "major",
+  "num": 3,
+  "den": 4,
+  "notes": 339
+ },
+ "haydn_quartets/sq8796660_3.mid": {
+  "key": "E",
+  "mode": "major",
+  "num": 4,
+  "den": 4,
+  "notes": 2124
+ },
+ "haydn_quartets/sq25463992_0.mid": {
+  "key": "A",
+  "mode": "major",
+  "num": 2,
+  "den": 4,
+  "notes": 1306
+ },
+ "haydn_quartets/sq25463992_1.mid": {
+  "key": "A",
+  "mode": "major",
+  "num": 3,
+  "den": 4,
+  "notes": 591
+ },
+ "haydn_quartets/sq25463992_2.mid": {
+  "key": "D",
+  "mode": "major",
+  "num": 2,
+  "den": 4,
+  "notes": 2132
+ },
+ "haydn_quartets/sq25463992_3.mid": {
+  "key": "A",
+  "mode": "major",
+  "num": 3,
+  "den": 4,
+  "notes": 393
+ },
+ "haydn_quartets/sq25463992_4.mid": {
+  "key": "A",
+  "mode": "major",
+  "num": 2,
+  "den": 4,
+  "notes": 1139
+ },
+ "haydn_quartets/sq34642829_0.mid": {
+  "key": "Bb",
+  "mode": "major",
+  "num": 2,
+  "den": 4,
+  "notes": 1751
+ },
+ "haydn_quartets/sq34642829_1.mid": {
+  "key": "Bb",
+  "mode": "major",
+  "num": 3,
+  "den": 4,
+  "notes": 630
+ },
+ "haydn_quartets/sq34642829_2.mid": {
+  "key": "Eb",
+  "mode": "major",
+  "num": 2,
+  "den": 4,
+  "notes": 697
+ },
+ "haydn_quartets/sq34642829_3.mid": {
+  "key": "Bb",
+  "mode": "major",
+  "num": 3,
+  "den": 4,
+  "notes": 412
+ },
+ "haydn_quartets/sq34642829_4.mid": {
+  "key": "Bb",
+  "mode": "major",
+  "num": 3,
+  "den": 8,
+  "notes": 859
+ },
+ "haydn_quartets/sq9647458_0.mid": {
+  "key": "Bb",
+  "mode": "major",
+  "num": 2,
+  "den": 4,
+  "notes": 1859
+ },
+ "haydn_quartets/sq9647458_1.mid": {
+  "key": "Bb",
+  "mode": "major",
+  "num": 3,
+  "den": 4,
+  "notes": 1430
+ },
+ "haydn_quartets/sq9647458_2.mid": {
+  "key": "Bb",
+  "mode": "major",
+  "num": 2,
+  "den": 4,
+  "notes": 1705
+ },
+ "haydn_quartets/sq8556926_0.mid": {
+  "key": "Bb",
+  "mode": "major",
+  "num": 3,
+  "den": 4,
+  "notes": 2436
+ },
+ "haydn_quartets/sq8556926_1.mid": {
+  "key": "Eb",
+  "mode": "major",
+  "num": 2,
+  "den": 4,
+  "notes": 868
+ },
+ "haydn_quartets/sq8556926_2.mid": {
+  "key": "Bb",
+  "mode": "major",
+  "num": 6,
+  "den": 8,
+  "notes": 1966
+ },
+ "haydn_quartets/sq7123582_0.mid": {
+  "key": "F",
+  "mode": "major",
+  "num": 3,
+  "den": 4,
+  "notes": 3100
+ },
+ "haydn_quartets/sq7123582_1.mid": {
+  "key": "Eb",
+  "mode": "major",
+  "num": 2,
+  "den": 4,
+  "notes": 1685
+ },
+ "haydn_quartets/sq7123582_2.mid": {
+  "key": "Bb",
+  "mode": "major",
+  "num": 3,
+  "den": 4,
+  "notes": 890
+ },
+ "haydn_quartets/sq7123582_3.mid": {
+  "key": "Bb",
+  "mode": "major",
+  "num": 2,
+  "den": 4,
+  "notes": 2550
+ },
+ "haydn_quartets/sq17317312_0.mid": {
+  "key": "Bb",
+  "mode": "major",
+  "num": 4,
+  "den": 4,
+  "notes": 3443
+ },
+ "haydn_quartets/sq17317312_1.mid": {
+  "key": "Bb",
+  "mode": "major",
+  "num": 3,
+  "den": 4,
+  "notes": 1946
+ },
+ "haydn_quartets/sq17317312_2.mid": {
+  "key": "Bb",
+  "mode": "major",
+  "num": 2,
+  "den": 2,
+  "notes": 2731
+ },
+ "haydn_quartets/sq8461409_0.mid": {
+  "key": "Bb",
+  "mode": "major",
+  "num": 6,
+  "den": 8,
+  "notes": 975
+ },
+ "haydn_quartets/sq8461409_1.mid": {
+  "key": "Bb",
+  "mode": "major",
+  "num": 3,
+  "den": 4,
+  "notes": 523
+ },
+ "haydn_quartets/sq8461409_2.mid": {
+  "key": "Eb",
+  "mode": "major",
+  "num": 4,
+  "den": 4,
+  "notes": 1057
+ },
+ "haydn_quartets/sq8461409_3.mid": {
+  "key": "Bb",
+  "mode": "major",
+  "num": 3,
+  "den": 4,
+  "notes": 453
+ },
+ "haydn_quartets/sq8461409_4.mid": {
+  "key": "Bb",
+  "mode": "major",
+  "num": 2,
+  "den": 4,
+  "notes": 799
+ },
+ "haydn_quartets/sq7114183_0.mid": {
+  "key": "B",
+  "mode": "minor",
+  "num": 4,
+  "den": 4,
+  "notes": 2176
+ },
+ "haydn_quartets/sq7114183_1.mid": {
+  "key": "B",
+  "mode": "major",
+  "num": 3,
+  "den": 4,
+  "notes": 1939
+ },
+ "haydn_quartets/sq7114183_2.mid": {
+  "key": "B",
+  "mode": "minor",
+  "num": 2,
+  "den": 4,
+  "notes": 2167
+ },
+ "haydn_quartets/sq9961690_0.mid": {
+  "key": "C",
+  "mode": "major",
+  "num": 4,
+  "den": 4,
+  "notes": 1904
+ },
+ "haydn_quartets/sq9961690_1.mid": {
+  "key": "C",
+  "mode": "major",
+  "num": 3,
+  "den": 4,
+  "notes": 557
+ },
+ "haydn_quartets/sq9961690_2.mid": {
+  "key": "F",
+  "mode": "major",
+  "num": 6,
+  "den": 8,
+  "notes": 1077
+ },
+ "haydn_quartets/sq9961690_3.mid": {
+  "key": "C",
+  "mode": "major",
+  "num": 2,
+  "den": 4,
+  "notes": 1436
+ },
+ "haydn_quartets/sq8088531_0.mid": {
+  "key": "C",
+  "mode": "major",
+  "num": 4,
+  "den": 4,
+  "notes": 4941
+ },
+ "haydn_quartets/sq8088531_1.mid": {
+  "key": "G",
+  "mode": "major",
+  "num": 3,
+  "den": 4,
+  "notes": 570
+ },
+ "haydn_quartets/sq8088531_2.mid": {
+  "key": "C",
+  "mode": "major",
+  "num": 6,
+  "den": 8,
+  "notes": 2517
+ },
+ "haydn_quartets/sq8806134_0.mid": {
+  "key": "G",
+  "mode": "major",
+  "num": 6,
+  "den": 8,
+  "notes": 937
+ },
+ "haydn_quartets/sq8806134_1.mid": {
+  "key": "C",
+  "mode": "major",
+  "num": 3,
+  "den": 4,
+  "notes": 561
+ },
+ "haydn_quartets/sq8806134_2.mid": {
+  "key": "G",
+  "mode": "major",
+  "num": 2,
+  "den": 4,
+  "notes": 780
+ },
+ "haydn_quartets/sq8806134_3.mid": {
+  "key": "C",
+  "mode": "major",
+  "num": 3,
+  "den": 4,
+  "notes": 811
+ },
+ "haydn_quartets/sq8806134_4.mid": {
+  "key": "C",
+  "mode": "major",
+  "num": 2,
+  "den": 4,
+  "notes": 879
+ },
+ "haydn_quartets/sq7127785_0.mid": {
+  "key": "C",
+  "mode": "major",
+  "num": 2,
+  "den": 2,
+  "notes": 2357
+ },
+ "haydn_quartets/sq7127785_1.mid": {
+  "key": "C",
+  "mode": "major",
+  "num": 3,
+  "den": 4,
+  "notes": 671
+ },
+ "haydn_quartets/sq7127785_2.mid": {
+  "key": "F",
+  "mode": "major",
+  "num": 2,
+  "den": 4,
+  "notes": 1594
+ },
+ "haydn_quartets/sq7127785_3.mid": {
+  "key": "C",
+  "mode": "major",
+  "num": 6,
+  "den": 8,
+  "notes": 2234
+ },
+ "haydn_quartets/sq10372717_0.mid": {
+  "key": "C",
+  "mode": "major",
+  "num": 4,
+  "den": 4,
+  "notes": 2786
+ },
+ "haydn_quartets/sq10372717_1.mid": {
+  "key": "G",
+  "mode": "major",
+  "num": 3,
+  "den": 8,
+  "notes": 1909
+ },
+ "haydn_quartets/sq10372717_2.mid": {
+  "key": "A",
+  "mode": "minor",
+  "num": 3,
+  "den": 4,
+  "notes": 896
+ },
+ "haydn_quartets/sq10372717_3.mid": {
+  "key": "G",
+  "mode": "major",
+  "num": 2,
+  "den": 4,
+  "notes": 3483
+ },
+ "haydn_quartets/sq20428156_0.mid": {
+  "key": "E",
+  "mode": "minor",
+  "num": 4,
+  "den": 4,
+  "notes": 3781
+ },
+ "haydn_quartets/sq20428156_1.mid": {
+  "key": "G",
+  "mode": "major",
+  "num": 2,
+  "den": 2,
+  "notes": 715
+ },
+ "haydn_quartets/sq20428156_2.mid": {
+  "key": "G",
+  "mode": "major",
+  "num": 4,
+  "den": 4,
+  "notes": 365
+ },
+ "haydn_quartets/sq20428156_3.mid": {
+  "key": "G",
+  "mode": "major",
+  "num": 2,
+  "den": 2,
+  "notes": 741
+ },
+ "haydn_quartets/sq20428156_4.mid": {
+  "key": "E",
+  "mode": "minor",
+  "num": 3,
+  "den": 4,
+  "notes": 693
+ },
+ "haydn_quartets/sq20428156_5.mid": {
+  "key": "C",
+  "mode": "minor",
+  "num": 2,
+  "den": 2,
+  "notes": 2784
+ },
+ "haydn_quartets/sq8806746_0.mid": {
+  "key": "D",
+  "mode": "major",
+  "num": 3,
+  "den": 4,
+  "notes": 2167
+ },
+ "haydn_quartets/sq8806746_1.mid": {
+  "key": "D",
+  "mode": "major",
+  "num": 2,
+  "den": 4,
+  "notes": 589
+ },
+ "haydn_quartets/sq8806746_2.mid": {
+  "key": "D",
+  "mode": "major",
+  "num": 3,
+  "den": 4,
+  "notes": 518
+ },
+ "haydn_quartets/sq8806746_3.mid": {
+  "key": "D",
+  "mode": "major",
+  "num": 3,
+  "den": 8,
+  "notes": 1174
+ },
+ "haydn_quartets/sq8509238_0.mid": {
+  "key": "D",
+  "mode": "major",
+  "num": 3,
+  "den": 4,
+  "notes": 3036
+ },
+ "haydn_quartets/sq8509238_1.mid": {
+  "key": "D",
+  "mode": "minor",
+  "num": 2,
+  "den": 4,
+  "notes": 1538
+ },
+ "haydn_quartets/sq8509238_2.mid": {
+  "key": "D",
+  "mode": "major",
+  "num": 3,
+  "den": 4,
+  "notes": 359
+ },
+ "haydn_quartets/sq8509238_3.mid": {
+  "key": "A",
+  "mode": "major",
+  "num": 4,
+  "den": 4,
+  "notes": 2764
+ },
+ "haydn_quartets/sq7284122_0.mid": {
+  "key": "D",
+  "mode": "major",
+  "num": 2,
+  "den": 2,
+  "notes": 2389
+ },
+ "haydn_quartets/sq7284122_1.mid": {
+  "key": "A",
+  "mode": "major",
+  "num": 3,
+  "den": 4,
+  "notes": 2029
+ },
+ "haydn_quartets/sq7284122_2.mid": {
+  "key": "D",
+  "mode": "major",
+  "num": 2,
+  "den": 4,
+  "notes": 2121
+ },
+ "haydn_quartets/sq22641487_0.mid": {
+  "key": "D",
+  "mode": "major",
+  "num": 6,
+  "den": 8,
+  "notes": 2893
+ },
+ "haydn_quartets/sq22641487_1.mid": {
+  "key": "F#",
+  "mode": "major",
+  "num": 2,
+  "den": 2,
+  "notes": 1270
+ },
+ "haydn_quartets/sq22641487_2.mid": {
+  "key": "D",
+  "mode": "major",
+  "num": 3,
+  "den": 4,
+  "notes": 699
+ },
+ "haydn_quartets/sq22641487_3.mid": {
+  "key": "A",
+  "mode": "major",
+  "num": 2,
+  "den": 4,
+  "notes": 3320
+ },
+ "haydn_quartets/sq10414906_0.mid": {
+  "key": "D",
+  "mode": "minor",
+  "num": 4,
+  "den": 4,
+  "notes": 1718
+ },
+ "haydn_quartets/sq10414906_1.mid": {
+  "key": "D",
+  "mode": "minor",
+  "num": 3,
+  "den": 4,
+  "notes": 517
+ },
+ "haydn_quartets/sq10414906_2.mid": {
+  "key": "Bb",
+  "mode": "major",
+  "num": 2,
+  "den": 2,
+  "notes": 1688
+ },
+ "haydn_quartets/sq10414906_3.mid": {
+  "key": "D",
+  "mode": "minor",
+  "num": 6,
+  "den": 8,
+  "notes": 1398
+ },
+ "haydn_quartets/sq12772795_0.mid": {
+  "key": "D",
+  "mode": "minor",
+  "num": 4,
+  "den": 4,
+  "notes": 3068
+ },
+ "haydn_quartets/sq12772795_1.mid": {
+  "key": "D",
+  "mode": "major",
+  "num": 6,
+  "den": 8,
+  "notes": 1559
+ },
+ "haydn_quartets/sq12772795_2.mid": {
+  "key": "D",
+  "mode": "major",
+  "num": 3,
+  "den": 4,
+  "notes": 1102
+ },
+ "haydn_quartets/sq12772795_3.mid": {
+  "key": "D",
+  "mode": "minor",
+  "num": 2,
+  "den": 4,
+  "notes": 2597
+ },
+ "haydn_quartets/sq8806881_0.mid": {
+  "key": "Eb",
+  "mode": "major",
+  "num": 3,
+  "den": 8,
+  "notes": 1177
+ },
+ "haydn_quartets/sq8806881_1.mid": {
+  "key": "Bb",
+  "mode": "major",
+  "num": 3,
+  "den": 4,
+  "notes": 624
+ },
+ "haydn_quartets/sq8806881_2.mid": {
+  "key": "Bb",
+  "mode": "major",
+  "num": 4,
+  "den": 4,
+  "notes": 999
+ },
+ "haydn_quartets/sq8806881_3.mid": {
+  "key": "Eb",
+  "mode": "major",
+  "num": 3,
+  "den": 4,
+  "notes": 532
+ },
+ "haydn_quartets/sq8806881_4.mid": {
+  "key": "Eb",
+  "mode": "major",
+  "num": 2,
+  "den": 4,
+  "notes": 790
+ },
+ "haydn_quartets/sq10328092_0.mid": {
+  "key": "Eb",
+  "mode": "major",
+  "num": 4,
+  "den": 4,
+  "notes": 2560
+ },
+ "haydn_quartets/sq10328092_1.mid": {
+  "key": "Eb",
+  "mode": "major",
+  "num": 3,
+  "den": 4,
+  "notes": 412
+ },
+ "haydn_quartets/sq10328092_2.mid": {
+  "key": "C",
+  "mode": "minor",
+  "num": 4,
+  "den": 4,
+  "notes": 73
+ },
+ "haydn_quartets/sq10328092_3.mid": {
+  "key": "C",
+  "mode": "minor",
+  "num": 3,
+  "den": 4,
+  "notes": 790
+ },
+ "haydn_quartets/sq10328092_4.mid": {
+  "key": "Bb",
+  "mode": "major",
+  "num": 4,
+  "den": 4,
+  "notes": 1256
+ },
+ "haydn_quartets/sq8075304_0.mid": {
+  "key": "Eb",
+  "mode": "major",
+  "num": 4,
+  "den": 4,
+  "notes": 2284
+ },
+ "haydn_quartets/sq8075304_1.mid": {
+  "key": "Eb",
+  "mode": "major",
+  "num": 3,
+  "den": 4,
+  "notes": 500
+ },
+ "haydn_quartets/sq8075304_2.mid": {
+  "key": "Ab",
+  "mode": "major",
+  "num": 3,
+  "den": 8,
+  "notes": 922
+ },
+ "haydn_quartets/sq8075304_3.mid": {
+  "key": "Bb",
+  "mode": "major",
+  "num": 2,
+  "den": 4,
+  "notes": 1267
+ },
+ "haydn_quartets/sq7300376_0.mid": {
+  "key": "Eb",
+  "mode": "major",
+  "num": 4,
+  "den": 4,
+  "notes": 1844
+ },
+ "haydn_quartets/sq7300376_1.mid": {
+  "key": "Bb",
+  "mode": "major",
+  "num": 3,
+  "den": 4,
+  "notes": 2109
+ },
+ "haydn_quartets/sq7300376_2.mid": {
+  "key": "Eb",
+  "mode": "major",
+  "num": 2,
+  "den": 4,
+  "notes": 2890
+ },
+ "haydn_quartets/sq26595778_0.mid": {
+  "key": "Eb",
+  "mode": "major",
+  "num": 2,
+  "den": 4,
+  "notes": 1033
+ },
+ "haydn_quartets/sq26595778_1.mid": {
+  "key": "Eb",
+  "mode": "major",
+  "num": 3,
+  "den": 4,
+  "notes": 521
+ },
+ "haydn_quartets/sq26595778_2.mid": {
+  "key": "Bb",
+  "mode": "major",
+  "num": 4,
+  "den": 4,
+  "notes": 1035
+ },
+ "haydn_quartets/sq26595778_3.mid": {
+  "key": "Eb",
+  "mode": "major",
+  "num": 3,
+  "den": 4,
+  "notes": 1155
+ },
+ "haydn_quartets/sq26595778_4.mid": {
+  "key": "Eb",
+  "mode": "major",
+  "num": 2,
+  "den": 4,
+  "notes": 896
+ },
+ "haydn_quartets/sq26380840_0.mid": {
+  "key": "B",
+  "mode": "major",
+  "num": 2,
+  "den": 4,
+  "notes": 1361
+ },
+ "haydn_quartets/sq26380840_1.mid": {
+  "key": "E",
+  "mode": "major",
+  "num": 3,
+  "den": 4,
+  "notes": 467
+ },
+ "haydn_quartets/sq26380840_2.mid": {
+  "key": "A",
+  "mode": "major",
+  "num": 4,
+  "den": 4,
+  "notes": 1713
+ },
+ "haydn_quartets/sq26380840_3.mid": {
+  "key": "E",
+  "mode": "major",
+  "num": 3,
+  "den": 4,
+  "notes": 675
+ },
+ "haydn_quartets/sq26380840_4.mid": {
+  "key": "B",
+  "mode": "major",
+  "num": 2,
+  "den": 4,
+  "notes": 1294
+ },
+ "haydn_quartets/sq10307350_0.mid": {
+  "key": "C",
+  "mode": "major",
+  "num": 4,
+  "den": 4,
+  "notes": 3655
+ },
+ "haydn_quartets/sq10307350_1.mid": {
+  "key": "Bb",
+  "mode": "major",
+  "num": 2,
+  "den": 4,
+  "notes": 1766
+ },
+ "haydn_quartets/sq10307350_2.mid": {
+  "key": "F",
+  "mode": "minor",
+  "num": 3,
+  "den": 4,
+  "notes": 722
+ },
+ "haydn_quartets/sq10307350_3.mid": {
+  "key": "F",
+  "mode": "major",
+  "num": 2,
+  "den": 4,
+  "notes": 2886
+ },
+ "haydn_quartets/sq8807040_0.mid": {
+  "key": "F",
+  "mode": "minor",
+  "num": 4,
+  "den": 4,
+  "notes": 3192
+ },
+ "haydn_quartets/sq8807040_1.mid": {
+  "key": "F",
+  "mode": "major",
+  "num": 3,
+  "den": 4,
+  "notes": 801
+ },
+ "haydn_quartets/sq8807040_2.mid": {
+  "key": "F",
+  "mode": "major",
+  "num": 6,
+  "den": 8,
+  "notes": 1753
+ },
+ "haydn_quartets/sq8807040_3.mid": {
+  "key": "F",
+  "mode": "minor",
+  "num": 2,
+  "den": 2,
+  "notes": 1628
+ },
+ "haydn_quartets/sq10381459_0.mid": {
+  "key": "G",
+  "mode": "major",
+  "num": 4,
+  "den": 4,
+  "notes": 1930
+ },
+ "haydn_quartets/sq10381459_1.mid": {
+  "key": "G",
+  "mode": "major",
+  "num": 3,
+  "den": 4,
+  "notes": 2020
+ },
+ "haydn_quartets/sq10381459_2.mid": {
+  "key": "D",
+  "mode": "major",
+  "num": 2,
+  "den": 4,
+  "notes": 1206
+ },
+ "haydn_quartets/sq8807667_0.mid": {
+  "key": "D",
+  "mode": "major",
+  "num": 3,
+  "den": 8,
+  "notes": 1408
+ },
+ "haydn_quartets/sq8807667_1.mid": {
+  "key": "G",
+  "mode": "major",
+  "num": 3,
+  "den": 4,
+  "notes": 723
+ },
+ "haydn_quartets/sq8807667_2.mid": {
+  "key": "C",
+  "mode": "major",
+  "num": 4,
+  "den": 4,
+  "notes": 1259
+ },
+ "haydn_quartets/sq8807667_3.mid": {
+  "key": "G",
+  "mode": "major",
+  "num": 3,
+  "den": 4,
+  "notes": 667
+ },
+ "haydn_quartets/sq8807667_4.mid": {
+  "key": "G",
+  "mode": "major",
+  "num": 2,
+  "den": 4,
+  "notes": 1131
+ },
+ "haydn_quartets/sq7249986_0.mid": {
+  "key": "D",
+  "mode": "major",
+  "num": 4,
+  "den": 4,
+  "notes": 2129
+ },
+ "haydn_quartets/sq7249986_1.mid": {
+  "key": "G",
+  "mode": "major",
+  "num": 3,
+  "den": 4,
+  "notes": 698
+ },
+ "haydn_quartets/sq7249986_2.mid": {
+  "key": "G",
+  "mode": "major",
+  "num": 2,
+  "den": 4,
+  "notes": 1946
+ },
+ "haydn_quartets/sq7249986_3.mid": {
+  "key": "G",
+  "mode": "major",
+  "num": 6,
+  "den": 8,
+  "notes": 2446
+ },
+ "haydn_quartets/sq15049456_0.mid": {
+  "key": "G",
+  "mode": "major",
+  "num": 2,
+  "den": 2,
+  "notes": 3301
+ },
+ "haydn_quartets/sq15049456_1.mid": {
+  "key": "C",
+  "mode": "major",
+  "num": 2,
+  "den": 4,
+  "notes": 2096
+ },
+ "haydn_quartets/sq15049456_2.mid": {
+  "key": "G",
+  "mode": "major",
+  "num": 3,
+  "den": 4,
+  "notes": 672
+ },
+ "haydn_quartets/sq15049456_3.mid": {
+  "key": "G",
+  "mode": "minor",
+  "num": 2,
+  "den": 2,
+  "notes": 3054
+ },
+ "haydn_quartets/sq8455808_0.mid": {
+  "key": "G",
+  "mode": "minor",
+  "num": 2,
+  "den": 4,
+  "notes": 2636
+ },
+ "haydn_quartets/sq8455808_1.mid": {
+  "key": "G",
+  "mode": "major",
+  "num": 3,
+  "den": 4,
+  "notes": 2617
+ },
+ "haydn_quartets/sq8455808_2.mid": {
+  "key": "G",
+  "mode": "minor",
+  "num": 4,
+  "den": 4,
+  "notes": 1497
+ },
+ "haydn_quartets/sq10313029_0.mid": {
+  "key": "G",
+  "mode": "minor",
+  "num": 3,
+  "den": 4,
+  "notes": 2279
+ },
+ "haydn_quartets/sq10313029_1.mid": {
+  "key": "E",
+  "mode": "major",
+  "num": 4,
+  "den": 4,
+  "notes": 1131
+ },
+ "haydn_quartets/sq10313029_2.mid": {
+  "key": "G",
+  "mode": "major",
+  "num": 3,
+  "den": 4,
+  "notes": 760
+ },
+ "haydn_quartets/sq10313029_3.mid": {
+  "key": "G",
+  "mode": "minor",
+  "num": 4,
+  "den": 4,
+  "notes": 3172
+ },
+ "hummel/prelude67_02_0.mid": {
+  "key": "A",
+  "mode": "minor",
+  "num": 4,
+  "den": 4,
+  "notes": 99
+ },
+ "hummel/prelude67_03_0.mid": {
+  "key": "G",
+  "mode": "major",
+  "num": 4,
+  "den": 4,
+  "notes": 128
+ },
+ "hummel/prelude67_04_0.mid": {
+  "key": "B",
+  "mode": "major",
+  "num": 4,
+  "den": 4,
+  "notes": 70
+ },
+ "hummel/prelude67_05_0.mid": {
+  "key": "D",
+  "mode": "major",
+  "num": 4,
+  "den": 4,
+  "notes": 134
+ },
+ "hummel/prelude67_06_0.mid": {
+  "key": "B",
+  "mode": "minor",
+  "num": 4,
+  "den": 4,
+  "notes": 134
+ },
+ "hummel/prelude67_07_0.mid": {
+  "key": "A",
+  "mode": "major",
+  "num": 4,
+  "den": 4,
+  "notes": 202
+ },
+ "hummel/prelude67_08_0.mid": {
+  "key": "F#",
+  "mode": "minor",
+  "num": 4,
+  "den": 4,
+  "notes": 159
+ },
+ "hummel/prelude67_09_0.mid": {
+  "key": "E",
+  "mode": "major",
+  "num": 4,
+  "den": 4,
+  "notes": 102
+ },
+ "hummel/prelude67_10_0.mid": {
+  "key": "Db",
+  "mode": "minor",
+  "num": 4,
+  "den": 4,
+  "notes": 115
+ },
+ "hummel/prelude67_11_0.mid": {
+  "key": "B",
+  "mode": "major",
+  "num": 4,
+  "den": 4,
+  "notes": 191
+ },
+ "hummel/prelude67_12_0.mid": {
+  "key": "Ab",
+  "mode": "minor",
+  "num": 4,
+  "den": 4,
+  "notes": 127
+ },
+ "hummel/prelude67_13_0.mid": {
+  "key": "F#",
+  "mode": "major",
+  "num": 4,
+  "den": 4,
+  "notes": 105
+ },
+ "hummel/prelude67_15_0.mid": {
+  "key": "Db",
+  "mode": "major",
+  "num": 4,
+  "den": 4,
+  "notes": 156
+ },
+ "hummel/prelude67_16_0.mid": {
+  "key": "Bb",
+  "mode": "minor",
+  "num": 4,
+  "den": 4,
+  "notes": 92
+ },
+ "hummel/prelude67_17_0.mid": {
+  "key": "Ab",
+  "mode": "major",
+  "num": 4,
+  "den": 4,
+  "notes": 165
+ },
+ "hummel/prelude67_18_0.mid": {
+  "key": "F",
+  "mode": "minor",
+  "num": 4,
+  "den": 4,
+  "notes": 81
+ },
+ "hummel/prelude67_19_0.mid": {
+  "key": "Eb",
+  "mode": "major",
+  "num": 4,
+  "den": 4,
+  "notes": 177
+ },
+ "hummel/prelude67_20_0.mid": {
+  "key": "C",
+  "mode": "minor",
+  "num": 4,
+  "den": 4,
+  "notes": 93
+ },
+ "hummel/prelude67_21_0.mid": {
+  "key": "Bb",
+  "mode": "major",
+  "num": 4,
+  "den": 4,
+  "notes": 245
+ },
+ "hummel/prelude67_22_0.mid": {
+  "key": "G",
+  "mode": "minor",
+  "num": 4,
+  "den": 4,
+  "notes": 202
+ },
+ "hummel/prelude67_23_0.mid": {
+  "key": "F",
+  "mode": "major",
+  "num": 4,
+  "den": 4,
+  "notes": 138
+ },
+ "hummel/prelude67_24_0.mid": {
+  "key": "D",
+  "mode": "minor",
+  "num": 4,
+  "den": 4,
+  "notes": 133
+ },
+ "corelli/op01n01a_notes_0.mid": {
+  "key": "F",
+  "mode": "major",
+  "num": 4,
+  "den": 4,
+  "notes": 210
+ },
+ "corelli/op01n01b_notes_0.mid": {
+  "key": "F",
+  "mode": "major",
+  "num": 4,
+  "den": 4,
+  "notes": 605
+ },
+ "corelli/op01n01c_notes_0.mid": {
+  "key": "F",
+  "mode": "major",
+  "num": 3,
+  "den": 4,
+  "notes": 214
+ },
+ "corelli/op01n01d_notes_0.mid": {
+  "key": "F",
+  "mode": "major",
+  "num": 3,
+  "den": 4,
+  "notes": 679
+ },
+ "corelli/op01n02a_notes_0.mid": {
+  "key": "E",
+  "mode": "minor",
+  "num": 4,
+  "den": 4,
+  "notes": 240
+ },
+ "corelli/op01n02b_notes_0.mid": {
+  "key": "E",
+  "mode": "minor",
+  "num": 4,
+  "den": 4,
+  "notes": 389
+ },
+ "corelli/op01n02c_notes_0.mid": {
+  "key": "E",
+  "mode": "minor",
+  "num": 3,
+  "den": 4,
+  "notes": 157
+ },
+ "corelli/op01n02d_notes_0.mid": {
+  "key": "E",
+  "mode": "minor",
+  "num": 3,
+  "den": 8,
+  "notes": 612
+ },
+ "corelli/op01n03a_notes_0.mid": {
+  "key": "A",
+  "mode": "major",
+  "num": 4,
+  "den": 4,
+  "notes": 205
+ },
+ "corelli/op01n03b_notes_0.mid": {
+  "key": "A",
+  "mode": "major",
+  "num": 4,
+  "den": 4,
+  "notes": 924
+ },
+ "corelli/op01n03c_notes_0.mid": {
+  "key": "A",
+  "mode": "major",
+  "num": 6,
+  "den": 4,
+  "notes": 182
+ },
+ "corelli/op01n03d_notes_0.mid": {
+  "key": "A",
+  "mode": "major",
+  "num": 3,
+  "den": 4,
+  "notes": 718
+ },
+ "corelli/op01n04a_notes_0.mid": {
+  "key": "A",
+  "mode": "minor",
+  "num": 4,
+  "den": 4,
+  "notes": 361
+ },
+ "corelli/op01n04b_notes_0.mid": {
+  "key": "A",
+  "mode": "minor",
+  "num": 4,
+  "den": 4,
+  "notes": 152
+ },
+ "corelli/op01n04c_notes_0.mid": {
+  "key": "A",
+  "mode": "minor",
+  "num": 4,
+  "den": 4,
+  "notes": 541
+ },
+ "corelli/op01n04d_notes_0.mid": {
+  "key": "A",
+  "mode": "minor",
+  "num": 4,
+  "den": 4,
+  "notes": 425
+ },
+ "corelli/op01n05a_notes_0.mid": {
+  "key": "G",
+  "mode": "minor",
+  "num": 3,
+  "den": 2,
+  "notes": 261
+ },
+ "corelli/op01n05b_notes_0.mid": {
+  "key": "Bb",
+  "mode": "major",
+  "num": 4,
+  "den": 4,
+  "notes": 571
+ },
+ "corelli/op01n05c_notes_1.mid": {
+  "key": "F",
+  "mode": "major",
+  "num": 4,
+  "den": 4,
+  "notes": 106
+ },
+ "corelli/op01n05c_notes_3.mid": {
+  "key": "F",
+  "mode": "major",
+  "num": 4,
+  "den": 4,
+  "notes": 69
+ },
+ "corelli/op01n05d_notes_0.mid": {
+  "key": "Bb",
+  "mode": "major",
+  "num": 6,
+  "den": 8,
+  "notes": 488
+ },
+ "corelli/op01n06a_notes_0.mid": {
+  "key": "B",
+  "mode": "minor",
+  "num": 4,
+  "den": 4,
+  "notes": 139
+ },
+ "corelli/op01n06b_notes_0.mid": {
+  "key": "B",
+  "mode": "minor",
+  "num": 4,
+  "den": 4,
+  "notes": 674
+ },
+ "corelli/op01n06c_notes_0.mid": {
+  "key": "B",
+  "mode": "minor",
+  "num": 3,
+  "den": 4,
+  "notes": 255
+ },
+ "corelli/op01n06d_notes_0.mid": {
+  "key": "B",
+  "mode": "minor",
+  "num": 6,
+  "den": 8,
+  "notes": 476
+ },
+ "corelli/op01n07a_notes_0.mid": {
+  "key": "C",
+  "mode": "major",
+  "num": 4,
+  "den": 4,
+  "notes": 748
+ },
+ "corelli/op01n07b_notes_0.mid": {
+  "key": "C",
+  "mode": "major",
+  "num": 4,
+  "den": 4,
+  "notes": 136
+ },
+ "corelli/op01n07c_notes_0.mid": {
+  "key": "C",
+  "mode": "major",
+  "num": 6,
+  "den": 8,
+  "notes": 646
+ },
+ "corelli/op01n08a_notes_0.mid": {
+  "key": "C",
+  "mode": "major",
+  "num": 4,
+  "den": 4,
+  "notes": 141
+ },
+ "corelli/op01n08b_notes_0.mid": {
+  "key": "C",
+  "mode": "minor",
+  "num": 4,
+  "den": 4,
+  "notes": 362
+ },
+ "corelli/op01n08c_notes_0.mid": {
+  "key": "C",
+  "mode": "minor",
+  "num": 4,
+  "den": 4,
+  "notes": 311
+ },
+ "corelli/op01n08d_notes_0.mid": {
+  "key": "C",
+  "mode": "minor",
+  "num": 3,
+  "den": 4,
+  "notes": 256
+ },
+ "corelli/op01n09a_notes_0.mid": {
+  "key": "G",
+  "mode": "major",
+  "num": 4,
+  "den": 4,
+  "notes": 64
+ },
+ "corelli/op01n09a_notes_1.mid": {
+  "key": "D",
+  "mode": "major",
+  "num": 3,
+  "den": 4,
+  "notes": 178
+ },
+ "corelli/op01n09a_notes_2.mid": {
+  "key": "D",
+  "mode": "major",
+  "num": 4,
+  "den": 4,
+  "notes": 64
+ },
+ "corelli/op01n09b_notes_0.mid": {
+  "key": "G",
+  "mode": "major",
+  "num": 4,
+  "den": 4,
+  "notes": 551
+ },
+ "corelli/op01n09c_notes_0.mid": {
+  "key": "G",
+  "mode": "major",
+  "num": 3,
+  "den": 2,
+  "notes": 249
+ },
+ "corelli/op01n09d_notes_0.mid": {
+  "key": "D",
+  "mode": "major",
+  "num": 3,
+  "den": 4,
+  "notes": 417
+ },
+ "corelli/op01n10a_notes_0.mid": {
+  "key": "G",
+  "mode": "minor",
+  "num": 4,
+  "den": 4,
+  "notes": 106
+ },
+ "corelli/op01n10b_notes_0.mid": {
+  "key": "G",
+  "mode": "minor",
+  "num": 4,
+  "den": 4,
+  "notes": 274
+ },
+ "corelli/op01n10c_notes_0.mid": {
+  "key": "G",
+  "mode": "minor",
+  "num": 6,
+  "den": 8,
+  "notes": 375
+ },
+ "corelli/op01n10d_notes_0.mid": {
+  "key": "G",
+  "mode": "minor",
+  "num": 3,
+  "den": 2,
+  "notes": 146
+ },
+ "corelli/op01n10e_notes_0.mid": {
+  "key": "G",
+  "mode": "minor",
+  "num": 3,
+  "den": 8,
+  "notes": 628
+ },
+ "corelli/op01n11a_notes_0.mid": {
+  "key": "D",
+  "mode": "minor",
+  "num": 4,
+  "den": 4,
+  "notes": 164
+ },
+ "corelli/op01n11b_notes_0.mid": {
+  "key": "D",
+  "mode": "minor",
+  "num": 4,
+  "den": 4,
+  "notes": 484
+ },
+ "corelli/op01n11c_notes_0.mid": {
+  "key": "D",
+  "mode": "minor",
+  "num": 3,
+  "den": 2,
+  "notes": 214
+ },
+ "corelli/op01n11d_notes_0.mid": {
+  "key": "D",
+  "mode": "minor",
+  "num": 4,
+  "den": 4,
+  "notes": 312
+ },
+ "corelli/op01n12a_notes_0.mid": {
+  "key": "D",
+  "mode": "major",
+  "num": 4,
+  "den": 4,
+  "notes": 277
+ },
+ "corelli/op01n12b_notes_0.mid": {
+  "key": "D",
+  "mode": "major",
+  "num": 4,
+  "den": 4,
+  "notes": 690
+ },
+ "corelli/op01n12c_notes_0.mid": {
+  "key": "B",
+  "mode": "minor",
+  "num": 4,
+  "den": 4,
+  "notes": 126
+ },
+ "corelli/op01n12d_notes_0.mid": {
+  "key": "D",
+  "mode": "major",
+  "num": 6,
+  "den": 8,
+  "notes": 939
+ },
+ "corelli/op03n01a_notes_0.mid": {
+  "key": "F",
+  "mode": "major",
+  "num": 4,
+  "den": 4,
+  "notes": 238
+ },
+ "corelli/op03n01b_notes_0.mid": {
+  "key": "F",
+  "mode": "major",
+  "num": 4,
+  "den": 4,
+  "notes": 627
+ },
+ "corelli/op03n01c_notes_0.mid": {
+  "key": "F",
+  "mode": "major",
+  "num": 3,
+  "den": 4,
+  "notes": 467
+ },
+ "corelli/op03n01d_notes_0.mid": {
+  "key": "F",
+  "mode": "major",
+  "num": 6,
+  "den": 8,
+  "notes": 489
+ },
+ "corelli/op03n02a_notes_0.mid": {
+  "key": "D",
+  "mode": "major",
+  "num": 4,
+  "den": 4,
+  "notes": 216
+ },
+ "corelli/op03n02b_notes_0.mid": {
+  "key": "D",
+  "mode": "major",
+  "num": 4,
+  "den": 4,
+  "notes": 394
+ },
+ "corelli/op03n02c_notes_0.mid": {
+  "key": "B",
+  "mode": "minor",
+  "num": 3,
+  "den": 2,
+  "notes": 234
+ },
+ "corelli/op03n02d_notes_0.mid": {
+  "key": "A",
+  "mode": "major",
+  "num": 6,
+  "den": 8,
+  "notes": 493
+ },
+ "corelli/op03n03a_notes_0.mid": {
+  "key": "Bb",
+  "mode": "major",
+  "num": 4,
+  "den": 4,
+  "notes": 180
+ },
+ "corelli/op03n03b_notes_0.mid": {
+  "key": "F",
+  "mode": "major",
+  "num": 3,
+  "den": 4,
+  "notes": 272
+ },
+ "corelli/op03n03c_notes_0.mid": {
+  "key": "Bb",
+  "mode": "major",
+  "num": 4,
+  "den": 4,
+  "notes": 387
+ },
+ "corelli/op03n03d_notes_0.mid": {
+  "key": "Bb",
+  "mode": "major",
+  "num": 6,
+  "den": 4,
+  "notes": 711
+ },
+ "corelli/op03n04a_notes_0.mid": {
+  "key": "B",
+  "mode": "minor",
+  "num": 4,
+  "den": 4,
+  "notes": 397
+ },
+ "corelli/op03n04b_notes_0.mid": {
+  "key": "B",
+  "mode": "minor",
+  "num": 4,
+  "den": 4,
+  "notes": 404
+ },
+ "corelli/op03n04c_notes_0.mid": {
+  "key": "B",
+  "mode": "minor",
+  "num": 3,
+  "den": 8,
+  "notes": 377
+ },
+ "corelli/op03n04d_notes_0.mid": {
+  "key": "B",
+  "mode": "minor",
+  "num": 2,
+  "den": 2,
+  "notes": 585
+ },
+ "corelli/op03n05a_notes_0.mid": {
+  "key": "D",
+  "mode": "minor",
+  "num": 4,
+  "den": 4,
+  "notes": 277
+ },
+ "corelli/op03n05b_notes_0.mid": {
+  "key": "D",
+  "mode": "minor",
+  "num": 4,
+  "den": 4,
+  "notes": 632
+ },
+ "corelli/op03n05c_notes_0.mid": {
+  "key": "D",
+  "mode": "minor",
+  "num": 3,
+  "den": 4,
+  "notes": 203
+ },
+ "corelli/op03n05d_notes_0.mid": {
+  "key": "D",
+  "mode": "minor",
+  "num": 12,
+  "den": 8,
+  "notes": 570
+ },
+ "corelli/op03n06a_notes_0.mid": {
+  "key": "G",
+  "mode": "major",
+  "num": 4,
+  "den": 4,
+  "notes": 457
+ },
+ "corelli/op03n06b_notes_0.mid": {
+  "key": "E",
+  "mode": "minor",
+  "num": 4,
+  "den": 4,
+  "notes": 135
+ },
+ "corelli/op03n06c_notes_0.mid": {
+  "key": "G",
+  "mode": "major",
+  "num": 4,
+  "den": 4,
+  "notes": 569
+ },
+ "corelli/op03n06d_notes_0.mid": {
+  "key": "G",
+  "mode": "major",
+  "num": 6,
+  "den": 8,
+  "notes": 450
+ },
+ "corelli/op03n07a_notes_0.mid": {
+  "key": "E",
+  "mode": "minor",
+  "num": 4,
+  "den": 4,
+  "notes": 157
+ },
+ "corelli/op03n07b_notes_0.mid": {
+  "key": "E",
+  "mode": "minor",
+  "num": 2,
+  "den": 2,
+  "notes": 325
+ },
+ "corelli/op03n07c_notes_0.mid": {
+  "key": "E",
+  "mode": "minor",
+  "num": 3,
+  "den": 2,
+  "notes": 225
+ },
+ "corelli/op03n07d_notes_0.mid": {
+  "key": "E",
+  "mode": "minor",
+  "num": 3,
+  "den": 4,
+  "notes": 347
+ },
+ "corelli/op03n08a_notes_0.mid": {
+  "key": "C",
+  "mode": "major",
+  "num": 4,
+  "den": 4,
+  "notes": 334
+ },
+ "corelli/op03n08b_notes_0.mid": {
+  "key": "C",
+  "mode": "major",
+  "num": 4,
+  "den": 4,
+  "notes": 661
+ },
+ "corelli/op03n08c_notes_0.mid": {
+  "key": "A",
+  "mode": "minor",
+  "num": 3,
+  "den": 2,
+  "notes": 194
+ },
+ "corelli/op03n08d_notes_0.mid": {
+  "key": "C",
+  "mode": "major",
+  "num": 4,
+  "den": 4,
+  "notes": 919
+ },
+ "corelli/op03n09a_notes_0.mid": {
+  "key": "F",
+  "mode": "major",
+  "num": 3,
+  "den": 2,
+  "notes": 168
+ },
+ "corelli/op03n09b_notes_0.mid": {
+  "key": "F",
+  "mode": "minor",
+  "num": 4,
+  "den": 4,
+  "notes": 340
+ },
+ "corelli/op03n09c_notes_0.mid": {
+  "key": "F",
+  "mode": "minor",
+  "num": 3,
+  "den": 4,
+  "notes": 242
+ },
+ "corelli/op03n09d_notes_0.mid": {
+  "key": "F",
+  "mode": "minor",
+  "num": 4,
+  "den": 4,
+  "notes": 400
+ },
+ "corelli/op03n10a_notes_0.mid": {
+  "key": "A",
+  "mode": "minor",
+  "num": 4,
+  "den": 4,
+  "notes": 173
+ },
+ "corelli/op03n10b_notes_0.mid": {
+  "key": "A",
+  "mode": "minor",
+  "num": 4,
+  "den": 4,
+  "notes": 728
+ },
+ "corelli/op03n10d_notes_0.mid": {
+  "key": "A",
+  "mode": "minor",
+  "num": 12,
+  "den": 8,
+  "notes": 570
+ },
+ "corelli/op03n11a_notes_0.mid": {
+  "key": "G",
+  "mode": "minor",
+  "num": 4,
+  "den": 4,
+  "notes": 218
+ },
+ "corelli/op03n11b_notes_0.mid": {
+  "key": "G",
+  "mode": "minor",
+  "num": 4,
+  "den": 4,
+  "notes": 564
+ },
+ "corelli/op03n11c_notes_0.mid": {
+  "key": "G",
+  "mode": "minor",
+  "num": 3,
+  "den": 2,
+  "notes": 165
+ },
+ "corelli/op03n11d_notes_0.mid": {
+  "key": "G",
+  "mode": "minor",
+  "num": 3,
+  "den": 4,
+  "notes": 276
+ },
+ "corelli/op03n12a_notes_0.mid": {
+  "key": "A",
+  "mode": "major",
+  "num": 4,
+  "den": 4,
+  "notes": 254
+ },
+ "corelli/op03n12b_notes_0.mid": {
+  "key": "E",
+  "mode": "major",
+  "num": 3,
+  "den": 4,
+  "notes": 214
+ },
+ "corelli/op03n12b_notes_1.mid": {
+  "key": "E",
+  "mode": "major",
+  "num": 6,
+  "den": 8,
+  "notes": 78
+ },
+ "corelli/op03n12c_notes_0.mid": {
+  "key": "E",
+  "mode": "major",
+  "num": 4,
+  "den": 4,
+  "notes": 95
+ },
+ "corelli/op03n12d_notes_0.mid": {
+  "key": "A",
+  "mode": "major",
+  "num": 4,
+  "den": 4,
+  "notes": 505
+ },
+ "corelli/op03n12e_notes_0.mid": {
+  "key": "A",
+  "mode": "major",
+  "num": 4,
+  "den": 4,
+  "notes": 458
+ },
+ "corelli/op03n12f_notes_0.mid": {
+  "key": "A",
+  "mode": "major",
+  "num": 4,
+  "den": 4,
+  "notes": 801
+ },
+ "corelli/op03n12g_notes_0.mid": {
+  "key": "A",
+  "mode": "major",
+  "num": 6,
+  "den": 8,
+  "notes": 528
+ },
+ "corelli/op04n01a_notes_0.mid": {
+  "key": "C",
+  "mode": "major",
+  "num": 4,
+  "den": 4,
+  "notes": 214
+ },
+ "corelli/op04n01b_notes_0.mid": {
+  "key": "C",
+  "mode": "major",
+  "num": 3,
+  "den": 4,
+  "notes": 407
+ },
+ "corelli/op04n01c_notes_0.mid": {
+  "key": "A",
+  "mode": "major",
+  "num": 4,
+  "den": 4,
+  "notes": 232
+ },
+ "corelli/op04n01d_notes_0.mid": {
+  "key": "C",
+  "mode": "major",
+  "num": 4,
+  "den": 4,
+  "notes": 439
+ },
+ "corelli/op04n02a_notes_0.mid": {
+  "key": "G",
+  "mode": "minor",
+  "num": 4,
+  "den": 4,
+  "notes": 267
+ },
+ "corelli/op04n02b_notes_0.mid": {
+  "key": "G",
+  "mode": "minor",
+  "num": 4,
+  "den": 4,
+  "notes": 373
+ },
+ "corelli/op04n02d_notes_0.mid": {
+  "key": "G",
+  "mode": "minor",
+  "num": 3,
+  "den": 4,
+  "notes": 322
+ },
+ "corelli/op04n03a_notes_0.mid": {
+  "key": "A",
+  "mode": "major",
+  "num": 4,
+  "den": 4,
+  "notes": 272
+ },
+ "corelli/op04n03b_notes_0.mid": {
+  "key": "E",
+  "mode": "major",
+  "num": 3,
+  "den": 4,
+  "notes": 478
+ },
+ "corelli/op04n03c_notes_0.mid": {
+  "key": "E",
+  "mode": "major",
+  "num": 3,
+  "den": 2,
+  "notes": 186
+ },
+ "corelli/op04n03d_notes_0.mid": {
+  "key": "A",
+  "mode": "major",
+  "num": 2,
+  "den": 2,
+  "notes": 345
+ },
+ "corelli/op04n04a_notes_0.mid": {
+  "key": "D",
+  "mode": "major",
+  "num": 4,
+  "den": 4,
+  "notes": 203
+ },
+ "corelli/op04n04b_notes_0.mid": {
+  "key": "D",
+  "mode": "major",
+  "num": 3,
+  "den": 4,
+  "notes": 277
+ },
+ "corelli/op04n04c_notes_0.mid": {
+  "key": "B",
+  "mode": "minor",
+  "num": 4,
+  "den": 4,
+  "notes": 285
+ },
+ "corelli/op04n04d_notes_0.mid": {
+  "key": "A",
+  "mode": "major",
+  "num": 12,
+  "den": 8,
+  "notes": 636
+ },
+ "corelli/op04n05a_notes_0.mid": {
+  "key": "A",
+  "mode": "minor",
+  "num": 4,
+  "den": 4,
+  "notes": 282
+ },
+ "corelli/op04n05b_notes_0.mid": {
+  "key": "A",
+  "mode": "minor",
+  "num": 4,
+  "den": 4,
+  "notes": 422
+ },
+ "corelli/op04n05c_notes_0.mid": {
+  "key": "A",
+  "mode": "minor",
+  "num": 3,
+  "den": 4,
+  "notes": 246
+ },
+ "corelli/op04n05d_notes_0.mid": {
+  "key": "A",
+  "mode": "minor",
+  "num": 2,
+  "den": 2,
+  "notes": 108
+ },
+ "corelli/op04n06a_notes_0.mid": {
+  "key": "B",
+  "mode": "major",
+  "num": 4,
+  "den": 4,
+  "notes": 83
+ },
+ "corelli/op04n06b_notes_0.mid": {
+  "key": "E",
+  "mode": "major",
+  "num": 3,
+  "den": 4,
+  "notes": 215
+ },
+ "corelli/op04n06d_notes_0.mid": {
+  "key": "E",
+  "mode": "major",
+  "num": 3,
+  "den": 4,
+  "notes": 278
+ },
+ "corelli/op04n06f_notes_0.mid": {
+  "key": "E",
+  "mode": "major",
+  "num": 4,
+  "den": 4,
+  "notes": 287
+ },
+ "corelli/op04n06g_notes_0.mid": {
+  "key": "E",
+  "mode": "major",
+  "num": 12,
+  "den": 8,
+  "notes": 451
+ },
+ "corelli/op04n07a_notes_0.mid": {
+  "key": "F",
+  "mode": "major",
+  "num": 4,
+  "den": 4,
+  "notes": 258
+ },
+ "corelli/op04n07b_notes_0.mid": {
+  "key": "F",
+  "mode": "major",
+  "num": 3,
+  "den": 4,
+  "notes": 280
+ },
+ "corelli/op04n07d_notes_0.mid": {
+  "key": "F",
+  "mode": "major",
+  "num": 3,
+  "den": 4,
+  "notes": 261
+ },
+ "corelli/op04n07e_notes_0.mid": {
+  "key": "F",
+  "mode": "major",
+  "num": 12,
+  "den": 8,
+  "notes": 475
+ },
+ "corelli/op04n08a_notes_0.mid": {
+  "key": "D",
+  "mode": "minor",
+  "num": 3,
+  "den": 2,
+  "notes": 232
+ },
+ "corelli/op04n08b_notes_0.mid": {
+  "key": "D",
+  "mode": "minor",
+  "num": 4,
+  "den": 4,
+  "notes": 512
+ },
+ "corelli/op04n08c_notes_0.mid": {
+  "key": "D",
+  "mode": "minor",
+  "num": 6,
+  "den": 8,
+  "notes": 179
+ },
+ "corelli/op04n09a_notes_0.mid": {
+  "key": "F",
+  "mode": "major",
+  "num": 4,
+  "den": 4,
+  "notes": 291
+ },
+ "corelli/op04n09b_notes_0.mid": {
+  "key": "F",
+  "mode": "major",
+  "num": 3,
+  "den": 4,
+  "notes": 432
+ },
+ "corelli/op04n09c_notes_0.mid": {
+  "key": "G",
+  "mode": "minor",
+  "num": 4,
+  "den": 4,
+  "notes": 112
+ },
+ "corelli/op04n09d_notes_0.mid": {
+  "key": "Bb",
+  "mode": "major",
+  "num": 2,
+  "den": 2,
+  "notes": 596
+ },
+ "corelli/op04n10b_notes_0.mid": {
+  "key": "D",
+  "mode": "major",
+  "num": 4,
+  "den": 4,
+  "notes": 642
+ },
+ "corelli/op04n10d_notes_0.mid": {
+  "key": "E",
+  "mode": "minor",
+  "num": 4,
+  "den": 4,
+  "notes": 126
+ },
+ "corelli/op04n10e_notes_0.mid": {
+  "key": "G",
+  "mode": "major",
+  "num": 2,
+  "den": 2,
+  "notes": 413
+ },
+ "corelli/op04n11a_notes_0.mid": {
+  "key": "C",
+  "mode": "minor",
+  "num": 4,
+  "den": 4,
+  "notes": 361
+ },
+ "corelli/op04n11b_notes_0.mid": {
+  "key": "C",
+  "mode": "minor",
+  "num": 3,
+  "den": 4,
+  "notes": 635
+ },
+ "corelli/op04n11c_notes_0.mid": {
+  "key": "C",
+  "mode": "minor",
+  "num": 4,
+  "den": 4,
+  "notes": 485
+ },
+ "corelli/op04n12a_notes_0.mid": {
+  "key": "B",
+  "mode": "minor",
+  "num": 3,
+  "den": 4,
+  "notes": 233
+ },
+ "corelli/op04n12b_notes_0.mid": {
+  "key": "B",
+  "mode": "minor",
+  "num": 2,
+  "den": 2,
+  "notes": 509
+ },
+ "corelli/op04n12c_notes_0.mid": {
+  "key": "B",
+  "mode": "minor",
+  "num": 12,
+  "den": 8,
+  "notes": 326
+ }
+}

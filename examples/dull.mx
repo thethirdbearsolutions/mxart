@@ -1,0 +1,23 @@
+# Passes check. lint is what says it's a weak tune.
+mxart 1
+tempo 100
+grid 8
+key C major
+
+@track lead program=80 range=C4..C6
+| E5 E5 E5 E5 E5 -  D5 E5 |
+| E5 E5 E5 E5 E5 -  F#5 E5 |
+| F5 F5 F5 F5 F5 -  E5 F5 |
+| E5 -  E2 -  E5 -  -  -  |
+
+@track pad program=89 vel=60
+| C4+E4+G4 - - - - - - - |
+| C4+E4+G4 - - - - - - - |
+| C4+E4+G4 - - - - - - - |
+| .  .  .  .  .  .  .  .  |
+
+@track bass program=33
+| C2 - - - C2 - - - |
+| C2 - - - C2 - - - |
+| D2 - - - D2 - - - |
+| D2 - - - -  - - - |
